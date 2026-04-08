@@ -160,6 +160,10 @@ img {
 
 .text-link {
   color: var(--text);
+  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
+    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-weight: 400;
+  font-synthesis: none;
   font-size: 1rem;
   line-height: 1.4;
   opacity: 0.88;
