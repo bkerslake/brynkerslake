@@ -11,7 +11,7 @@ const links = [
   },
   {
     label: "GitHub",
-    href: "https://github.com/brynkerslake",
+    href: "https://github.com/bkerslake",
   },
   {
     label: "Writings",
