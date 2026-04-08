@@ -1,0 +1,1 @@
+simple nextjs personal website.
