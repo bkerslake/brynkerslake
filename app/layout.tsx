@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 import type { Metadata } from "next";
+import { CornerNavLink } from "./components/corner-nav-link";
+import { PageTransition } from "./components/page-transition";
+import { ReadingsPreloader } from "./components/readings-preloader";
 import "./globals.css";
 
 const perfectlyNineties = localFont({
@@ -51,7 +54,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={perfectlyNineties.variable}>{children}</body>
+      <body className={perfectlyNineties.variable}>
+        <PageTransition>
+          <CornerNavLink />
+          {children}
+        </PageTransition>
+        <ReadingsPreloader />
+      </body>
     </html>
   );
 }

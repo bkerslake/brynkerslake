@@ -44,6 +44,60 @@ a {
   text-decoration: none;
 }
 
+.corner-link {
+  position: fixed;
+  top: clamp(1rem, 2.5vw, 1.8rem);
+  z-index: 110;
+  display: inline-flex;
+  color: var(--text);
+  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
+    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-synthesis: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  opacity: 0.82;
+}
+
+.corner-link-left {
+  left: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+.corner-link-right {
+  right: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+.corner-link:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.62);
+  outline-offset: 0.35rem;
+  border-radius: 999px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .corner-link:hover {
+    opacity: 1;
+  }
+}
+
+.corner-link-text-frame {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  min-width: 2.6rem;
+  text-align: left;
+}
+
+.corner-link-text-sizer {
+  visibility: hidden;
+}
+
+.corner-link-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -69,6 +123,147 @@ img {
   align-items: center;
   justify-content: center;
   padding: clamp(2rem, 4vh, 4.25rem) 0;
+}
+
+.page-transition {
+  min-height: 100svh;
+}
+
+.route-transition-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  background: var(--bg);
+}
+
+.work-shell {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 4vh, 4.25rem) 0;
+}
+
+.readings-shell {
+  width: min(720px, calc(100% - 2rem));
+  margin: 0 auto;
+  min-height: 100svh;
+  padding: clamp(5.25rem, 9vh, 6.5rem) 0 clamp(3.5rem, 8vh, 5rem);
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(2.25rem, 4vw, 3.25rem) clamp(1rem, 2.4vw, 2rem);
+}
+
+.book-card {
+  min-width: 0;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.book-card article {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.book-cover-wrap {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  border: 1px solid var(--line-soft);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(246, 247, 251, 0.16), transparent 38%),
+    rgba(255, 255, 255, 0.05);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.22);
+  transform: translateZ(18px);
+}
+
+.book-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-title {
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
+    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(1rem, 1.45vw, 1.35rem);
+  font-weight: 400;
+  font-synthesis: none;
+  line-height: 1.28;
+}
+
+.book-author {
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(0.92rem, 1.12vw, 1.08rem);
+  line-height: 1.35;
+}
+
+.work-list {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0;
+}
+
+.work-item {
+  display: grid;
+  gap: 0;
+}
+
+.work-item:not(:last-child) {
+  margin-bottom: 0.55rem;
+}
+
+.work-title {
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
+    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
+  font-weight: 400;
+  font-synthesis: none;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.work-title-link {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 160ms ease, opacity 160ms ease;
+}
+
+.work-title-link:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.62);
+  outline-offset: 0.2rem;
+  border-radius: 0.15rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .work-title-link:hover {
+    text-decoration-color: currentColor;
+    opacity: 1;
+  }
+}
+
+.work-description {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
+  line-height: 1.75;
 }
 
 .hero {
@@ -195,6 +390,19 @@ img {
     padding-bottom: 3rem;
   }
 
+  .work-shell {
+    width: min(100%, calc(100% - 1.5rem));
+  }
+
+  .readings-shell {
+    width: min(720px, calc(100% - 1.5rem));
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.25rem 1.25rem;
+  }
+
   .hero {
     padding-top: 0.75rem;
   }
@@ -208,6 +416,11 @@ img {
   .prose {
     gap: 1.15rem;
     margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  .work-description {
     font-size: 1rem;
     line-height: 1.68;
   }
@@ -234,6 +447,11 @@ img {
     line-height: 1.58;
   }
 
+  .work-description {
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+
   .link-row {
     gap: 0.75rem;
     margin-top: 1.35rem;
@@ -245,6 +463,45 @@ img {
 }
 
 @media (max-width: 640px) {
+  .corner-link {
+    font-size: 1rem;
+  }
+
+  .work-shell {
+    align-items: flex-start;
+    padding-top: 5rem;
+  }
+
+  .readings-shell {
+    padding-top: 5rem;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.75rem 0.65rem;
+  }
+
+  .book-title {
+    font-size: clamp(0.75rem, 2.8vw, 0.95rem);
+  }
+
+  .book-author {
+    font-size: clamp(0.7rem, 2.6vw, 0.86rem);
+  }
+
+  .work-list {
+    gap: 0;
+  }
+
+  .work-title {
+    font-size: 1.02rem;
+  }
+
+  .work-description {
+    font-size: 1.02rem;
+    line-height: 1.78;
+  }
+
   .hero-title {
     font-size: clamp(3.6rem, 18vw, 5.8rem);
   }
