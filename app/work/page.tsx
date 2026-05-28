@@ -39,7 +39,7 @@ const workItems: WorkItem[] = [
     title: "Delphi",
     href: "https://www.delphi.ai/",
     description:
-      "Experimenting with scaling human connection with digital clones",
+      "Experiments on scaling human connection with digital clones",
   },
   {
     title: "National Ski Patrol",
