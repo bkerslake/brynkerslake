@@ -15,6 +15,11 @@ type CopyLink = {
 
 type LinkRecord = CopyLink | ExternalLink;
 
+type CopyState = {
+  label: string;
+  status: "copied" | "failed";
+};
+
 type HeroContentProps = {
   links: LinkRecord[];
   paragraphs: string[];
@@ -25,8 +30,9 @@ async function copyToClipboard(value: string) {
     try {
       await navigator.clipboard.writeText(value);
       return;
-    } catch {
+    } catch (error) {
       // Fall back for browsers that expose clipboard but deny writeText.
+      console.warn("Clipboard write failed, falling back to execCommand.", error);
     }
   }
 
@@ -35,13 +41,20 @@ async function copyToClipboard(value: string) {
   textarea.style.position = "fixed";
   textarea.style.opacity = "0";
   document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textarea);
+
+  try {
+    textarea.select();
+
+    if (!document.execCommand("copy")) {
+      throw new Error("The browser rejected the copy command.");
+    }
+  } finally {
+    document.body.removeChild(textarea);
+  }
 }
 
 export function HeroContent({ links, paragraphs }: HeroContentProps) {
-  const [copiedLabel, setCopiedLabel] = useState<string | null>(null);
+  const [copyState, setCopyState] = useState<CopyState | null>(null);
   const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const shouldReduceMotion = useReducedMotion();
 
@@ -54,17 +67,28 @@ export function HeroContent({ links, paragraphs }: HeroContentProps) {
   }, []);
 
   const handleCopy = async (link: CopyLink) => {
-    await copyToClipboard(link.copyText);
-    setCopiedLabel(link.label);
+    let status: CopyState["status"] = "copied";
+
+    try {
+      await copyToClipboard(link.copyText);
+    } catch (error) {
+      console.error(`Unable to copy ${link.label} to the clipboard.`, error);
+      status = "failed";
+    }
+
+    setCopyState({ label: link.label, status });
 
     if (resetTimer.current) {
       clearTimeout(resetTimer.current);
     }
 
     resetTimer.current = setTimeout(() => {
-      setCopiedLabel(null);
+      setCopyState(null);
     }, 1800);
   };
+
+  const statusFor = (label: string) =>
+    copyState?.label === label ? copyState.status : null;
 
   return (
     <div className="hero-fit">
@@ -85,7 +109,9 @@ export function HeroContent({ links, paragraphs }: HeroContentProps) {
                   <button
                     aria-label={`Copy ${link.copyText} to clipboard`}
                     className="text-link copy-link"
-                    onClick={() => handleCopy(link)}
+                    onClick={() => {
+                      void handleCopy(link);
+                    }}
                     type="button"
                   >
                     <span className="copy-link-text-frame" aria-live="polite">
@@ -93,11 +119,7 @@ export function HeroContent({ links, paragraphs }: HeroContentProps) {
                       <AnimatePresence initial={false} mode="popLayout">
                         <motion.span
                           className="copy-link-text"
-                          key={
-                            copiedLabel === link.label
-                              ? `${link.label}-copied`
-                              : link.label
-                          }
+                          key={`${link.label}-${statusFor(link.label) ?? "idle"}`}
                           initial={
                             shouldReduceMotion
                               ? { opacity: 0 }
@@ -130,7 +152,11 @@ export function HeroContent({ links, paragraphs }: HeroContentProps) {
                             ease: "easeOut",
                           }}
                         >
-                          {copiedLabel === link.label ? "Copied!" : link.label}
+                          {statusFor(link.label) === "copied"
+                            ? "Copied!"
+                            : statusFor(link.label) === "failed"
+                              ? "Copy failed"
+                              : link.label}
                         </motion.span>
                       </AnimatePresence>
                     </span>

@@ -20,6 +20,9 @@ export function ReadingsPreloader() {
       readingCoverPaths.forEach((cover) => {
         const image = new window.Image();
         image.decoding = "async";
+        image.onerror = () => {
+          console.warn(`Failed to preload reading cover "${cover}".`);
+        };
         image.src = cover;
       });
     };

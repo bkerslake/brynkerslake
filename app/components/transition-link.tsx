@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import type { ComponentProps, MouseEvent } from "react";
 import { useCallback, useEffect } from "react";
+import { resolveHref } from "../lib/resolve-href";
 import { usePageTransition } from "./page-transition";
 
 type TransitionLinkProps = Omit<ComponentProps<"a">, "href"> & {
@@ -20,9 +21,9 @@ export function TransitionLink({
   const router = useRouter();
 
   const prefetch = useCallback(() => {
-    const url = new URL(href, window.location.href);
+    const url = resolveHref(href);
 
-    if (url.origin === window.location.origin) {
+    if (url && url.origin === window.location.origin) {
       router.prefetch(`${url.pathname}${url.search}${url.hash}`);
     }
   }, [href, router]);

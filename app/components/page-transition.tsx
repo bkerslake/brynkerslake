@@ -13,6 +13,7 @@ import {
   useTransition,
   type ReactNode,
 } from "react";
+import { resolveHref } from "../lib/resolve-href";
 
 type PageTransitionProps = {
   children: ReactNode;
@@ -82,7 +83,12 @@ export function PageTransition({ children }: PageTransitionProps) {
 
   const navigate = useCallback(
     (href: string) => {
-      const url = new URL(href, window.location.href);
+      const url = resolveHref(href);
+
+      if (!url) {
+        window.location.assign(href);
+        return;
+      }
 
       if (url.origin !== window.location.origin) {
         window.location.assign(url.href);
