@@ -1,9 +1,11 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import { useTimeout } from "../lib/use-timeout";
+import { BlurSwapText } from "./blur-swap-text";
+import { ExternalLink } from "./external-link";
 
-type ExternalLink = {
+type ExternalLinkRecord = {
   href: string;
   label: string;
 };
@@ -13,12 +15,14 @@ type CopyLink = {
   label: string;
 };
 
-type LinkRecord = CopyLink | ExternalLink;
+type LinkRecord = CopyLink | ExternalLinkRecord;
 
 type HeroContentProps = {
   links: LinkRecord[];
   paragraphs: string[];
 };
+
+const COPIED_RESET_MS = 1800;
 
 async function copyToClipboard(value: string) {
   if (navigator.clipboard) {
@@ -42,28 +46,15 @@ async function copyToClipboard(value: string) {
 
 export function HeroContent({ links, paragraphs }: HeroContentProps) {
   const [copiedLabel, setCopiedLabel] = useState<string | null>(null);
-  const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const shouldReduceMotion = useReducedMotion();
-
-  useEffect(() => {
-    return () => {
-      if (resetTimer.current) {
-        clearTimeout(resetTimer.current);
-      }
-    };
-  }, []);
+  const resetTimer = useTimeout();
 
   const handleCopy = async (link: CopyLink) => {
     await copyToClipboard(link.copyText);
     setCopiedLabel(link.label);
 
-    if (resetTimer.current) {
-      clearTimeout(resetTimer.current);
-    }
-
-    resetTimer.current = setTimeout(() => {
+    resetTimer.start(() => {
       setCopiedLabel(null);
-    }, 1800);
+    }, COPIED_RESET_MS);
   };
 
   return (
@@ -88,64 +79,28 @@ export function HeroContent({ links, paragraphs }: HeroContentProps) {
                     onClick={() => handleCopy(link)}
                     type="button"
                   >
-                    <span className="copy-link-text-frame" aria-live="polite">
-                      <span className="copy-link-text-sizer">{link.label}</span>
-                      <AnimatePresence initial={false} mode="popLayout">
-                        <motion.span
-                          className="copy-link-text"
-                          key={
-                            copiedLabel === link.label
-                              ? `${link.label}-copied`
-                              : link.label
-                          }
-                          initial={
-                            shouldReduceMotion
-                              ? { opacity: 0 }
-                              : {
-                                  opacity: 0,
-                                  filter: "blur(6px)",
-                                  y: 9,
-                                }
-                          }
-                          animate={
-                            shouldReduceMotion
-                              ? { opacity: 1 }
-                              : {
-                                  opacity: 1,
-                                  filter: "blur(0px)",
-                                  y: 0,
-                                }
-                          }
-                          exit={
-                            shouldReduceMotion
-                              ? { opacity: 0 }
-                              : {
-                                  opacity: 0,
-                                  filter: "blur(6px)",
-                                  y: -9,
-                                }
-                          }
-                          transition={{
-                            duration: 0.18,
-                            ease: "easeOut",
-                          }}
-                        >
-                          {copiedLabel === link.label ? "Copied!" : link.label}
-                        </motion.span>
-                      </AnimatePresence>
-                    </span>
+                    <BlurSwapText
+                      aria-live="polite"
+                      classPrefix="copy-link"
+                      sizerText={link.label}
+                      swapKey={
+                        copiedLabel === link.label
+                          ? `${link.label}-copied`
+                          : link.label
+                      }
+                    >
+                      {copiedLabel === link.label ? "Copied!" : link.label}
+                    </BlurSwapText>
                   </button>
                 </div>
               ) : (
-                <a
+                <ExternalLink
                   key={link.label}
                   className="text-link"
                   href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
                 >
                   {link.label}
-                </a>
+                </ExternalLink>
               ),
             )}
           </div>

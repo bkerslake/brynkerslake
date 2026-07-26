@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ExternalLink } from "../components/external-link";
 
 export const metadata: Metadata = {
   title: "Work | Bryn Kerslake",
@@ -59,14 +60,9 @@ export default function Work() {
           <section className="work-item" key={item.title}>
             <h2 className="work-title">
               {item.href ? (
-                <a
-                  className="work-title-link"
-                  href={item.href}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <ExternalLink className="work-title-link" href={item.href}>
                   {item.title}
-                </a>
+                </ExternalLink>
               ) : (
                 item.title
               )}

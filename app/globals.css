@@ -50,8 +50,7 @@ a {
   z-index: 110;
   display: inline-flex;
   color: var(--text);
-  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
-    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--display-font);
   font-synthesis: none;
   font-weight: 400;
   font-size: 1.1rem;
@@ -67,31 +66,39 @@ a {
   right: clamp(1rem, 2.5vw, 1.8rem);
 }
 
-.corner-link:focus-visible {
+.corner-link:focus-visible,
+.text-link:focus-visible {
   outline: 1px solid rgba(255, 255, 255, 0.62);
   outline-offset: 0.35rem;
   border-radius: 999px;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .corner-link:hover {
+  .corner-link:hover,
+  .text-link:hover {
     opacity: 1;
   }
 }
 
-.corner-link-text-frame {
+.corner-link-text-frame,
+.copy-link-text-frame {
   position: relative;
   display: inline-block;
   overflow: visible;
+}
+
+.corner-link-text-frame {
   min-width: 2.6rem;
   text-align: left;
 }
 
-.corner-link-text-sizer {
+.corner-link-text-sizer,
+.copy-link-text-sizer {
   visibility: hidden;
 }
 
-.corner-link-text {
+.corner-link-text,
+.copy-link-text {
   position: absolute;
   left: 0;
   top: 0;
@@ -115,7 +122,8 @@ img {
   max-width: 100%;
 }
 
-.page-shell {
+.page-shell,
+.work-shell {
   width: min(920px, calc(100% - 2rem));
   margin: 0 auto;
   min-height: 100svh;
@@ -135,16 +143,6 @@ img {
   z-index: 100;
   pointer-events: none;
   background: var(--bg);
-}
-
-.work-shell {
-  width: min(920px, calc(100% - 2rem));
-  margin: 0 auto;
-  min-height: 100svh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(2rem, 4vh, 4.25rem) 0;
 }
 
 .readings-shell {
@@ -193,8 +191,7 @@ img {
 .book-title {
   margin: 0;
   color: var(--text);
-  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
-    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--display-font);
   font-size: clamp(1rem, 1.45vw, 1.35rem);
   font-weight: 400;
   font-synthesis: none;
@@ -228,8 +225,7 @@ img {
 .work-title {
   margin: 0;
   color: var(--text);
-  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
-    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--display-font);
   font-size: clamp(1rem, 1.25vw, 1.2rem);
   font-weight: 400;
   font-synthesis: none;
@@ -266,13 +262,7 @@ img {
   line-height: 1.75;
 }
 
-.hero {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+.hero,
 .hero-fit {
   width: 100%;
   display: flex;
@@ -291,8 +281,7 @@ img {
 
 .hero-title {
   margin: 0;
-  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
-    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--display-font);
   font-weight: 400;
   font-synthesis: none;
   font-size: clamp(3.9rem, 11vw, 8rem);
@@ -330,26 +319,13 @@ img {
 
 .text-link {
   color: var(--text);
-  font-family: var(--font-perfectly-nineties), "Iowan Old Style",
-    "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--display-font);
   font-weight: 400;
   font-synthesis: none;
   font-size: 1rem;
   line-height: 1.4;
   opacity: 0.88;
   cursor: pointer;
-}
-
-.text-link:focus-visible {
-  outline: 1px solid rgba(255, 255, 255, 0.62);
-  outline-offset: 0.35rem;
-  border-radius: 999px;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .text-link:hover {
-    opacity: 1;
-  }
 }
 
 .copy-link-wrap {
@@ -366,32 +342,15 @@ img {
   text-align: left;
 }
 
-.copy-link-text-frame {
-  position: relative;
-  display: inline-block;
-  overflow: visible;
-}
-
-.copy-link-text-sizer {
-  visibility: hidden;
-}
-
-.copy-link-text {
-  position: absolute;
-  left: 0;
-  top: 0;
-  white-space: nowrap;
-}
-
 @media (max-width: 920px) {
-  .page-shell {
-    width: min(100%, calc(100% - 1.5rem));
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
+  .page-shell,
   .work-shell {
     width: min(100%, calc(100% - 1.5rem));
+  }
+
+  .page-shell {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .readings-shell {

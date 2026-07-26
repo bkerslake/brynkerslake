@@ -1,7 +1,7 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { usePathname } from "next/navigation";
+import { BlurSwapText } from "./blur-swap-text";
 import { TransitionLink } from "./transition-link";
 
 type AnimatedCornerLinkProps = {
@@ -11,56 +11,20 @@ type AnimatedCornerLinkProps = {
 };
 
 function AnimatedCornerLink({ href, label, position }: AnimatedCornerLinkProps) {
-  const shouldReduceMotion = useReducedMotion();
-
   return (
     <TransitionLink
       className={`corner-link corner-link-${position}`}
       href={href}
       aria-label={`Go to ${label}`}
     >
-      <span className="corner-link-text-frame" aria-hidden="true">
-        <span className="corner-link-text-sizer">{label}</span>
-        <AnimatePresence initial={false} mode="popLayout">
-          <motion.span
-            className="corner-link-text"
-            key={label}
-            initial={
-              shouldReduceMotion
-                ? { opacity: 0 }
-                : {
-                    opacity: 0,
-                    filter: "blur(6px)",
-                    y: 9,
-                  }
-            }
-            animate={
-              shouldReduceMotion
-                ? { opacity: 1 }
-                : {
-                    opacity: 1,
-                    filter: "blur(0px)",
-                    y: 0,
-                  }
-            }
-            exit={
-              shouldReduceMotion
-                ? { opacity: 0 }
-                : {
-                    opacity: 0,
-                    filter: "blur(6px)",
-                    y: -9,
-                  }
-            }
-            transition={{
-              duration: 0.18,
-              ease: "easeOut",
-            }}
-          >
-            {label}
-          </motion.span>
-        </AnimatePresence>
-      </span>
+      <BlurSwapText
+        aria-hidden="true"
+        classPrefix="corner-link"
+        sizerText={label}
+        swapKey={label}
+      >
+        {label}
+      </BlurSwapText>
     </TransitionLink>
   );
 }

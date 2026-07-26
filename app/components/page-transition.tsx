@@ -13,6 +13,9 @@ import {
   useTransition,
   type ReactNode,
 } from "react";
+import { SWAP_TRANSITION } from "../lib/motion";
+import { isSameOrigin, resolveHref, toRelativePath } from "../lib/navigation";
+import { useTimeout } from "../lib/use-timeout";
 
 type PageTransitionProps = {
   children: ReactNode;
@@ -45,52 +48,36 @@ export function PageTransition({ children }: PageTransitionProps) {
   const [, startNavigation] = useTransition();
   const [isCovering, setIsCovering] = useState(false);
   const pendingPathname = useRef<string | null>(null);
-  const pushTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const revealTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pushTimer = useTimeout();
+  const revealTimer = useTimeout();
 
   const clearTimers = useCallback(() => {
-    if (pushTimer.current) {
-      clearTimeout(pushTimer.current);
-      pushTimer.current = null;
-    }
-
-    if (revealTimer.current) {
-      clearTimeout(revealTimer.current);
-      revealTimer.current = null;
-    }
-  }, []);
-
-  useEffect(() => {
-    return clearTimers;
-  }, [clearTimers]);
+    pushTimer.clear();
+    revealTimer.clear();
+  }, [pushTimer, revealTimer]);
 
   useEffect(() => {
     if (!pendingPathname.current || pathname !== pendingPathname.current) {
       return;
     }
 
-    if (revealTimer.current) {
-      clearTimeout(revealTimer.current);
-    }
-
-    revealTimer.current = setTimeout(() => {
+    revealTimer.start(() => {
       setIsCovering(false);
       pendingPathname.current = null;
-      revealTimer.current = null;
     }, ROUTE_REVEAL_DELAY_MS);
-  }, [pathname]);
+  }, [pathname, revealTimer]);
 
   const navigate = useCallback(
     (href: string) => {
-      const url = new URL(href, window.location.href);
+      const url = resolveHref(href);
 
-      if (url.origin !== window.location.origin) {
+      if (!isSameOrigin(url)) {
         window.location.assign(url.href);
         return;
       }
 
-      const targetPath = `${url.pathname}${url.search}${url.hash}`;
-      const currentPath = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+      const targetPath = toRelativePath(url);
+      const currentPath = toRelativePath(window.location);
 
       if (targetPath === currentPath) {
         return;
@@ -106,14 +93,13 @@ export function PageTransition({ children }: PageTransitionProps) {
       pendingPathname.current = url.pathname;
       setIsCovering(true);
 
-      pushTimer.current = setTimeout(() => {
+      pushTimer.start(() => {
         startNavigation(() => {
           router.push(targetPath);
         });
-        pushTimer.current = null;
       }, NAVIGATION_DELAY_MS);
     },
-    [clearTimers, router, shouldReduceMotion, startNavigation],
+    [clearTimers, pushTimer, router, shouldReduceMotion, startNavigation],
   );
 
   const contextValue = useMemo(() => ({ navigate }), [navigate]);
@@ -126,10 +112,7 @@ export function PageTransition({ children }: PageTransitionProps) {
         className="route-transition-cover"
         initial={false}
         animate={{ opacity: isCovering ? 1 : 0 }}
-        transition={{
-          duration: 0.18,
-          ease: "easeOut",
-        }}
+        transition={SWAP_TRANSITION}
       />
     </PageTransitionContext.Provider>
   );
