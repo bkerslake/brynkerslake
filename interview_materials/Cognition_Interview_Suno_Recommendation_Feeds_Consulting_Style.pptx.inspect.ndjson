@@ -1,0 +1,656 @@
+{"kind":"deck","id":"pr/90s0rr","name":"Deck"}
+{"kind":"layout","layoutId":"c0e4668c-f31a-4661-a197-1901c9b16517","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"c8ce81d2-e465-4b5f-945d-223b88c3f8a6","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ifdeyg","slide":1,"title":"PAST WORK PRESENTATION","textShapes":6}
+{"kind":"shape","id":"sh/6tk3apcz","slide":1,"bbox":[0,0,14,720]}
+{"kind":"textbox","id":"sh/twb254va","slide":1,"text":"PAST WORK PRESENTATION","textPreview":"PAST WORK PRESENTATION","textChars":22,"textLines":1,"bbox":[74,64,420,20]}
+{"kind":"textbox","id":"sh/8v2lczup","slide":1,"text":"Building Suno's\nrecommendation feeds","textPreview":"Building Suno's | recommendation feeds","textChars":36,"textLines":2,"bbox":[74,133,850,210]}
+{"kind":"textbox","id":"sh/fyd47edg","slide":1,"text":"Three production feeds in eight weeks","textPreview":"Three production feeds in eight weeks","textChars":37,"textLines":1,"bbox":[76,388,720,42]}
+{"kind":"shape","id":"sh/ux43e9cv","slide":1,"bbox":[76,474,210,0]}
+{"kind":"textbox","id":"sh/h0vm94vm","slide":1,"text":"Bryn Kerslake","textPreview":"Bryn Kerslake","textChars":13,"textLines":1,"bbox":[76,534,420,30]}
+{"kind":"textbox","id":"sh/gzmlgju1","slide":1,"text":"Suno internship project | Cognition interview","textPreview":"Suno internship project | Cognition interview","textChars":45,"textLines":1,"bbox":[76,570,650,28]}
+{"kind":"textbox","id":"sh/b29kvadc","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1158,676,60,18]}
+{"kind":"notes","id":"nt/ifdeyg","slide":1,"text":"- Open with scope: three production feeds, about eight weeks of recommendation work.\n- I completed my assigned internship project in three weeks, then asked to join the recommendation effort.\n- My focus today: ownership, setbacks, launch evidence, and what I would change.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/1c0ubu","slide":2,"title":"IMPACT","textShapes":20}
+{"kind":"shape","id":"sh/sfax47up","slide":2,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/re1wb2dk","slide":2,"text":"IMPACT","textPreview":"IMPACT","textChars":6,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/qdsf2xcz","slide":2,"text":"Three feeds reached production; launch tests improved listening and follows","textPreview":"Three feeds reached production; launch tests improved listening and follows","textChars":75,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/1k3yhcvm","slide":2,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/0jux87u1","slide":2,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/filgfmdg","slide":2,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/ehsf6hcv","slide":2,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/hoze5sv2","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/gnqxwnux","slide":2,"text":"Platform scale","textPreview":"Platform scale","textChars":14,"textLines":1,"bbox":[62,190,220,30]}
+{"kind":"textbox","id":"sh/ahczidsr","slide":2,"text":"~1.1M","textPreview":"~1.1M","textChars":5,"textLines":1,"bbox":[62,228,250,68]}
+{"kind":"textbox","id":"sh/v2lgbitw","slide":2,"text":"daily active users","textPreview":"daily active users","textChars":18,"textLines":1,"bbox":[62,294,250,54]}
+{"kind":"textbox","id":"sh/w3uhknah","slide":2,"text":"~7M","textPreview":"~7M","textChars":3,"textLines":1,"bbox":[326,228,250,68]}
+{"kind":"textbox","id":"sh/x43id8b2","slide":2,"text":"monthly active users","textPreview":"monthly active users","textChars":20,"textLines":1,"bbox":[326,294,250,54]}
+{"kind":"shape","id":"sh/i5wzmdsn","slide":2,"bbox":[606,190,0,392]}
+{"kind":"textbox","id":"sh/j650fit8","slide":2,"text":"Launch evidence","textPreview":"Launch evidence","textChars":15,"textLines":1,"bbox":[642,190,260,30]}
+{"kind":"textbox","id":"sh/k7ehonat","slide":2,"text":"+63%","textPreview":"+63%","textChars":4,"textLines":1,"bbox":[642,228,270,68]}
+{"kind":"textbox","id":"sh/58nihsbe","slide":2,"text":"Because You Create feed playtime","textPreview":"Because You Create feed playtime","textChars":32,"textLines":1,"bbox":[642,294,270,54]}
+{"kind":"textbox","id":"sh/69wzqxsz","slide":2,"text":"Time spent listening inside the shelf vs control","textPreview":"Time spent listening inside the shelf vs control","textChars":48,"textLines":1,"bbox":[642,348,270,50]}
+{"kind":"textbox","id":"sh/ra50j2t4","slide":2,"text":"+15%","textPreview":"+15%","textChars":4,"textLines":1,"bbox":[932,228,276,68]}
+{"kind":"textbox","id":"sh/3epg729c","slide":2,"text":"personalized creator net follows","textPreview":"personalized creator net follows","textChars":32,"textLines":1,"bbox":[932,294,276,54]}
+{"kind":"textbox","id":"sh/2dgzex8r","slide":2,"text":"Net new follow relationships vs control; statistically significant","textPreview":"Net new follow relationships vs control; statistically significant","textChars":66,"textLines":1,"bbox":[932,348,276,50]}
+{"kind":"shape","id":"sh/p07y9cri","slide":2,"bbox":[642,414,566,1]}
+{"kind":"textbox","id":"sh/ofyhg7qx","slide":2,"text":"3 feeds live","textPreview":"3 feeds live","textChars":12,"textLines":1,"bbox":[642,438,240,42]}
+{"kind":"textbox","id":"sh/fa5g3i9g","slide":2,"text":"For You | Because You Create | Creators You May Like","textPreview":"For You | Because You Create | Creators You May Like","textChars":52,"textLines":1,"bbox":[642,486,566,34]}
+{"kind":"textbox","id":"sh/e9wfad8v","slide":2,"text":"All lifts are relative to experiment control. Platform scale is approximate.","textPreview":"All lifts are relative to experiment control. Platform scale is approximate.","textChars":76,"textLines":1,"bbox":[62,632,1146,20]}
+{"kind":"notes","id":"nt/1c0ubu","slide":2,"text":"- Spend the first minute here. This is the scale and business relevance.\n- Because You Create: feed playtime rose 63 percent; feed plays rose 36 percent.\n- Creators You May Like: net follows rose 15 percent and the result was statistically significant.\n- Retention was a company priority, so homepage discovery was a high-leverage product surface.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/mwa3sf","slide":3,"title":"PRODUCT CONTEXT","textShapes":21}
+{"kind":"shape","id":"sh/5kf6tkf2","slide":3,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/iho7i5gr","slide":3,"text":"PRODUCT CONTEXT","textPreview":"PRODUCT CONTEXT","textChars":15,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/jixorahc","slide":3,"text":"Creation behavior provides preference signals that streaming products do not have","textPreview":"Creation behavior provides preference signals that streaming products do not have","textChars":81,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/snqpozyt","slide":3,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/t8zqx4fe","slide":3,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/6lo7mpgn","slide":3,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/7mhovux8","slide":3,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/gbqpszyp","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/hczq14fa","slide":3,"text":"CONSUMPTION-FIRST PRODUCT","textPreview":"CONSUMPTION-FIRST PRODUCT","textChars":25,"textLines":1,"bbox":[62,194,420,20]}
+{"kind":"textbox","id":"sh/9gbytk3y","slide":3,"text":"Listen","textPreview":"Listen","textChars":6,"textLines":1,"bbox":[62,237,170,44]}
+{"kind":"shape","id":"sh/8f2xkf2t","slide":3,"bbox":[225,259,100,0]}
+{"kind":"textbox","id":"sh/7etgral8","slide":3,"text":"Engage","textPreview":"Engage","textChars":6,"textLines":1,"bbox":[342,237,170,44]}
+{"kind":"shape","id":"sh/mdkfi5kn","slide":3,"bbox":[496,259,100,0]}
+{"kind":"textbox","id":"sh/h4vyxk3a","slide":3,"text":"Recommend","textPreview":"Recommend","textChars":9,"textLines":1,"bbox":[614,237,220,44]}
+{"kind":"shape","id":"sh/w32hof2p","slide":3,"bbox":[62,316,1156,0]}
+{"kind":"textbox","id":"sh/v2tgval4","slide":3,"text":"SUNO'S CREATION-FIRST LOOP","textPreview":"SUNO'S CREATION-FIRST LOOP","textChars":26,"textLines":1,"bbox":[62,348,420,20]}
+{"kind":"textbox","id":"sh/uhkzmpkj","slide":3,"text":"Create","textPreview":"Create","textChars":6,"textLines":1,"bbox":[62,397,210,38]}
+{"kind":"textbox","id":"sh/d8ryl03q","slide":3,"text":"High-intent taste signal","textPreview":"High-intent taste signal","textChars":24,"textLines":1,"bbox":[62,441,210,48]}
+{"kind":"shape","id":"sh/c7ixcv2l","slide":3,"bbox":[257,418,22,0]}
+{"kind":"textbox","id":"sh/4rmh8vah","slide":3,"text":"Infer","textPreview":"Infer","textChars":5,"textLines":1,"bbox":[291,397,210,38]}
+{"kind":"textbox","id":"sh/psvy10bm","slide":3,"text":"Audio, genre, and behavior","textPreview":"Audio, genre, and behavior","textChars":26,"textLines":1,"bbox":[291,441,210,48]}
+{"kind":"shape","id":"sh/2pkf6lsb","slide":3,"bbox":[486,418,22,0]}
+{"kind":"textbox","id":"sh/3qtgzqtw","slide":3,"text":"Recommend","textPreview":"Recommend","textChars":9,"textLines":1,"bbox":[520,397,210,38]}
+{"kind":"textbox","id":"sh/cvmhcfad","slide":3,"text":"Songs and creators","textPreview":"Songs and creators","textChars":18,"textLines":1,"bbox":[520,441,210,48]}
+{"kind":"shape","id":"sh/dwvy50by","slide":3,"bbox":[715,418,22,0]}
+{"kind":"textbox","id":"sh/qt4za5s7","slide":3,"text":"Listen / follow","textPreview":"Listen / follow","textChars":15,"textLines":1,"bbox":[749,397,210,38]}
+{"kind":"textbox","id":"sh/rudg3ats","slide":3,"text":"Discovery outcome","textPreview":"Discovery outcome","textChars":17,"textLines":1,"bbox":[749,441,210,48]}
+{"kind":"shape","id":"sh/0j6hgfa9","slide":3,"bbox":[944,418,22,0]}
+{"kind":"textbox","id":"sh/lkfy9kbu","slide":3,"text":"Return","textPreview":"Return","textChars":6,"textLines":1,"bbox":[978,397,210,38]}
+{"kind":"textbox","id":"sh/vehkzedc","slide":3,"text":"Retention loop","textPreview":"Retention loop","textChars":14,"textLines":1,"bbox":[978,441,210,48]}
+{"kind":"textbox","id":"sh/ad8j69cr","slide":3,"text":"New users may have sparse listening histories but several strong creation signals.\nThe product must create value for listeners, creators, and the return loop.","textPreview":"New users may have sparse listening histories but several strong creation signals. | The product must create value for listeners, creator...","textChars":158,"textLines":2,"bbox":[62,526,1146,88]}
+{"kind":"notes","id":"nt/mwa3sf","slide":3,"text":"- Explain the product difference before discussing algorithms.\n- A creation is content and a strong expression of taste.\n- Sparse listening history does not imply sparse preference data at Suno.\n- This changed seed selection, quality filters, ranking, and the metrics we cared about.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/93ixfn","slide":4,"title":"AUTONOMY","textShapes":16}
+{"kind":"shape","id":"sh/donat83m","slide":4,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/qlcrytkb","slide":4,"text":"AUTONOMY","textPreview":"AUTONOMY","textChars":8,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/bm5srylg","slide":4,"text":"I defined the recommendations workstream after finishing my assigned project in three weeks","textPreview":"I defined the recommendations workstream after finishing my assigned project in three weeks","textChars":91,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/oju9wj25","slide":4,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/pk3qpo3q","slide":4,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/2xcru9kz","slide":4,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/3yl8nelk","slide":4,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/8fy98n29","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/9g7a1s3u","slide":4,"bbox":[114,355,1018,0]}
+{"kind":"shape","id":"sh/18badcne","slide":4,"bbox":[114,344,22,22]}
+{"kind":"textbox","id":"sh/072tkr6t","slide":4,"text":"WEEK 0","textPreview":"WEEK 0","textChars":6,"textLines":1,"bbox":[112,204,220,20]}
+{"kind":"textbox","id":"sh/z6tsbm58","slide":4,"text":"Joined as a full-stack intern","textPreview":"Joined as a full-stack intern","textChars":29,"textLines":1,"bbox":[112,236,300,74]}
+{"kind":"textbox","id":"sh/e5kbihon","slide":4,"text":"Limited prior experience with recommendation systems or data engineering.","textPreview":"Limited prior experience with recommendation systems or data engineering.","textChars":73,"textLines":1,"bbox":[112,390,300,100]}
+{"kind":"shape","id":"sh/d4ba9cn2","slide":4,"bbox":[493,344,22,22]}
+{"kind":"textbox","id":"sh/cj2tg76x","slide":4,"text":"WEEK 3","textPreview":"WEEK 3","textChars":6,"textLines":1,"bbox":[491,204,220,20]}
+{"kind":"textbox","id":"sh/rits725c","slide":4,"text":"Assigned project shipped","textPreview":"Assigned project shipped","textChars":24,"textLines":1,"bbox":[491,236,300,74]}
+{"kind":"textbox","id":"sh/qhkbexor","slide":4,"text":"Bot detection and a data-agent system for a self-improving data codebase.","textPreview":"Bot detection and a data-agent system for a self-improving data codebase.","textChars":73,"textLines":1,"bbox":[491,390,300,100]}
+{"kind":"shape","id":"sh/x0fulwnm","slide":4,"bbox":[872,344,22,22]}
+{"kind":"textbox","id":"sh/wzmtsb61","slide":4,"text":"NEXT ~8 WEEKS","textPreview":"NEXT ~8 WEEKS","textChars":13,"textLines":1,"bbox":[870,204,220,20]}
+{"kind":"textbox","id":"sh/wjudofed","slide":4,"text":"Three feeds built in parallel","textPreview":"Three feeds built in parallel","textChars":29,"textLines":1,"bbox":[870,236,300,74]}
+{"kind":"textbox","id":"sh/hknexkvi","slide":4,"text":"Asked to join the recommendation effort and defined the engineering path.","textPreview":"Asked to join the recommendation effort and defined the engineering path.","textChars":73,"textLines":1,"bbox":[870,390,300,100]}
+{"kind":"shape","id":"sh/uhcvm5w7","slide":4,"bbox":[62,531,1156,76]}
+{"kind":"textbox","id":"sh/vilcvads","slide":4,"text":"Team context","textPreview":"Team context","textChars":12,"textLines":1,"bbox":[82,550,150,28]}
+{"kind":"textbox","id":"sh/8fudkve1","slide":4,"text":"No dedicated PM | No predefined roadmap | ML scientist as core partner | Data science and design support as needed","textPreview":"No dedicated PM | No predefined roadmap | ML scientist as core partner | Data science and design support as needed","textChars":114,"textLines":1,"bbox":[246,550,938,36]}
+{"kind":"notes","id":"nt/93ixfn","slide":4,"text":"- State the autonomy clearly: the recommendation work was not my initial assignment.\n- I saw the weakness as a user, asked to join the effort, and scoped an engineering plan with the ML scientist.\n- The three feed timelines overlapped; each took roughly three to six weeks from first implementation through experiment analysis.\n- No dedicated PM owned sequencing or requirements.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/czm5qb","slide":5,"title":"OWNERSHIP","textShapes":27}
+{"kind":"shape","id":"sh/qxojitkn","slide":5,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/d0f2do3e","slide":5,"text":"OWNERSHIP","textPreview":"OWNERSHIP","textChars":9,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/sz61kj2t","slide":5,"text":"I owned delivery and production operations","textPreview":"I owned delivery and production operations","textChars":42,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/3uxk7elc","slide":5,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/itoje9kr","slide":5,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/5wf29o32","slide":5,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/4v61gj2h","slide":5,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/nqhkjy1g","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/2p83qdkv","slide":5,"bbox":[62,166,270,52]}
+{"kind":"textbox","id":"sh/sryxkzmh","slide":5,"text":"Workstream","textPreview":"Workstream","textChars":10,"textLines":1,"bbox":[74,176,246,32]}
+{"kind":"shape","id":"sh/ds7yd4n2","slide":5,"bbox":[332,166,430,52]}
+{"kind":"textbox","id":"sh/qpgfip4b","slide":5,"text":"My role","textPreview":"My role","textChars":7,"textLines":1,"bbox":[344,176,406,32]}
+{"kind":"shape","id":"sh/rqpgbu5w","slide":5,"bbox":[762,166,456,52]}
+{"kind":"textbox","id":"sh/4nexgfm5","slide":5,"text":"Partner input","textPreview":"Partner input","textChars":13,"textLines":1,"bbox":[774,176,432,32]}
+{"kind":"shape","id":"sh/5ony9knq","slide":5,"bbox":[62,218,270,66]}
+{"kind":"textbox","id":"sh/ilwfep4f","slide":5,"text":"Architecture","textPreview":"Architecture","textChars":12,"textLines":1,"bbox":[74,228,246,46]}
+{"kind":"shape","id":"sh/3m5g7u5k","slide":5,"bbox":[332,218,430,66]}
+{"kind":"textbox","id":"sh/gjexcfm9","slide":5,"text":"Co-owned system design and contracts","textPreview":"Co-owned system design and contracts","textChars":36,"textLines":1,"bbox":[344,228,406,46]}
+{"kind":"shape","id":"sh/hkny5knu","slide":5,"bbox":[762,218,456,66]}
+{"kind":"textbox","id":"sh/x4vmtcb6","slide":5,"text":"ML scientist: retrieval and ranking judgment","textPreview":"ML scientist: retrieval and ranking judgment","textChars":44,"textLines":1,"bbox":[774,228,432,46]}
+{"kind":"shape","id":"sh/w3m5k7ul","slide":5,"bbox":[62,284,270,66]}
+{"kind":"textbox","id":"sh/b2d4r2tg","slide":5,"text":"Data pipelines","textPreview":"Data pipelines","textChars":14,"textLines":1,"bbox":[74,294,246,46]}
+{"kind":"shape","id":"sh/a14nixcv","slide":5,"bbox":[332,284,430,66]}
+{"kind":"textbox","id":"sh/p0bmpsba","slide":5,"text":"Owned end to end","textPreview":"Owned end to end","textChars":16,"textLines":1,"bbox":[344,294,406,46]}
+{"kind":"shape","id":"sh/oz25g7up","slide":5,"bbox":[762,284,456,66]}
+{"kind":"textbox","id":"sh/net4n2t4","slide":5,"text":"Reviews and domain input","textPreview":"Reviews and domain input","textChars":24,"textLines":1,"bbox":[774,294,432,46]}
+{"kind":"shape","id":"sh/2dk3excj","slide":5,"bbox":[62,350,270,66]}
+{"kind":"textbox","id":"sh/twf61wbe","slide":5,"text":"Retrieval and ranking","textPreview":"Retrieval and ranking","textChars":21,"textLines":1,"bbox":[74,360,246,46]}
+{"kind":"shape","id":"sh/8v65srut","slide":5,"bbox":[332,350,430,66]}
+{"kind":"textbox","id":"sh/qhgjmtsb","slide":5,"text":"Implemented most logic; co-designed scoring","textPreview":"Implemented most logic; co-designed scoring","textChars":43,"textLines":1,"bbox":[344,360,406,46]}
+{"kind":"shape","id":"sh/ri9kvy9w","slide":5,"bbox":[762,350,456,66]}
+{"kind":"textbox","id":"sh/sji1o3ah","slide":5,"text":"ML scientist: algorithms, scoring, metric interpretation","textPreview":"ML scientist: algorithms, scoring, metric interpretation","textChars":56,"textLines":1,"bbox":[774,360,432,46]}
+{"kind":"shape","id":"sh/dkr2x8r2","slide":5,"bbox":[62,416,270,66]}
+{"kind":"textbox","id":"sh/idgji9sf","slide":5,"text":"Serving and UI","textPreview":"Serving and UI","textChars":14,"textLines":1,"bbox":[74,426,246,46]}
+{"kind":"shape","id":"sh/3epkre90","slide":5,"bbox":[332,416,430,66]}
+{"kind":"textbox","id":"sh/4fy1kjal","slide":5,"text":"Implemented most backend and frontend","textPreview":"Implemented most backend and frontend","textChars":37,"textLines":1,"bbox":[344,426,406,46]}
+{"kind":"shape","id":"sh/5g72torq","slide":5,"bbox":[762,416,456,66]}
+{"kind":"textbox","id":"sh/29k3udsj","slide":5,"text":"Design specifications; occasional engineering support","textPreview":"Design specifications; occasional engineering support","textChars":53,"textLines":1,"bbox":[774,426,432,46]}
+{"kind":"shape","id":"sh/natk3i94","slide":5,"bbox":[62,482,270,66]}
+{"kind":"textbox","id":"sh/72pgzadk","slide":5,"text":"Experiments","textPreview":"Experiments","textChars":11,"textLines":1,"bbox":[74,492,246,46]}
+{"kind":"shape","id":"sh/m1gfq5wz","slide":5,"bbox":[332,482,430,66]}
+{"kind":"textbox","id":"sh/94ry1kvq","slide":5,"text":"Co-owned setup, instrumentation, and readout","textPreview":"Co-owned setup, instrumentation, and readout","textChars":44,"textLines":1,"bbox":[344,492,406,46]}
+{"kind":"shape","id":"sh/83ixsfu5","slide":5,"bbox":[762,482,456,66]}
+{"kind":"textbox","id":"sh/zypgvad8","slide":5,"text":"ML scientist and data scientist: analysis","textPreview":"ML scientist and data scientist: analysis","textChars":41,"textLines":1,"bbox":[774,492,432,46]}
+{"kind":"shape","id":"sh/yxgfm5w3","slide":5,"bbox":[62,548,270,66]}
+{"kind":"textbox","id":"sh/l07yx0ve","slide":5,"text":"Rollout and health","textPreview":"Rollout and health","textChars":18,"textLines":1,"bbox":[74,558,246,46]}
+{"kind":"shape","id":"sh/kzyxofet","slide":5,"bbox":[332,548,430,66]}
+{"kind":"textbox","id":"sh/ju9g7uds","slide":5,"text":"Owned staging, launch, and monitoring","textPreview":"Owned staging, launch, and monitoring","textChars":37,"textLines":1,"bbox":[344,558,406,46]}
+{"kind":"shape","id":"sh/it0zypc7","slide":5,"bbox":[762,548,456,66]}
+{"kind":"textbox","id":"sh/gfudsrup","slide":5,"text":"Team reviewed launch decisions","textPreview":"Team reviewed launch decisions","textChars":30,"textLines":1,"bbox":[774,558,432,46]}
+{"kind":"textbox","id":"sh/1g3ulwba","slide":5,"text":"Ownership language is intentionally specific: owned, co-owned, or implemented most.","textPreview":"Ownership language is intentionally specific: owned, co-owned, or implemented most.","textChars":83,"textLines":1,"bbox":[62,629,1146,22]}
+{"kind":"notes","id":"nt/czm5qb","slide":5,"text":"- Use exact ownership language and avoid implying that I designed every ranking decision alone.\n- I owned all data pipelines, most serving and UI work, rollout, and production health.\n- The ML scientist was strongest on algorithms, scoring, and experiment interpretation.\n- The partnership worked because the technical responsibilities were complementary.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/8v1fmt","slide":6,"title":"PRODUCT SCOPE","textShapes":22}
+{"kind":"shape","id":"sh/ih8bi9kf","slide":6,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/5kzutoj6","slide":6,"text":"PRODUCT SCOPE","textPreview":"PRODUCT SCOPE","textChars":13,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/4jqtkj2l","slide":6,"text":"Each feed addressed a different recommendation decision","textPreview":"Each feed addressed a different recommendation decision","textChars":55,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/vuhsne14","slide":6,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/ut8be9kj","slide":6,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/hgzap4ja","slide":6,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/wvqtgz2p","slide":6,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/fq1czy18","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/epsbqtkn","slide":6,"bbox":[62,174,230,54]}
+{"kind":"textbox","id":"sh/krapwnah","slide":6,"text":"Feed","textPreview":"Feed","textChars":4,"textLines":1,"bbox":[74,184,206,34]}
+{"kind":"shape","id":"sh/lsj6psrm","slide":6,"bbox":[292,174,330,54]}
+{"kind":"textbox","id":"sh/yps7udsb","slide":6,"text":"User decision","textPreview":"User decision","textChars":13,"textLines":1,"bbox":[304,184,306,34]}
+{"kind":"shape","id":"sh/jq1oni9w","slide":6,"bbox":[622,174,310,54]}
+{"kind":"textbox","id":"sh/wnaps3a5","slide":6,"text":"Primary signals","textPreview":"Primary signals","textChars":15,"textLines":1,"bbox":[634,184,286,34]}
+{"kind":"shape","id":"sh/xoj6l8rq","slide":6,"bbox":[932,174,286,54]}
+{"kind":"textbox","id":"sh/al87qtsz","slide":6,"text":"Launch evidence","textPreview":"Launch evidence","textChars":15,"textLines":1,"bbox":[944,184,262,34]}
+{"kind":"shape","id":"sh/bmhojy9k","slide":6,"bbox":[62,228,230,116]}
+{"kind":"textbox","id":"sh/ozqpo3a9","slide":6,"text":"For You","textPreview":"For You","textChars":7,"textLines":1,"bbox":[74,238,206,96]}
+{"kind":"shape","id":"sh/90z6h8ru","slide":6,"bbox":[292,228,330,116]}
+{"kind":"textbox","id":"sh/p47e50f6","slide":6,"text":"Which songs should I hear next?","textPreview":"Which songs should I hear next?","textChars":31,"textLines":1,"bbox":[304,238,306,96]}
+{"kind":"shape","id":"sh/43ydwvyl","slide":6,"bbox":[622,228,310,116]}
+{"kind":"textbox","id":"sh/3ipw3qh0","slide":6,"text":"Listening, creation, interaction, similarity, and fallback sources","textPreview":"Listening, creation, interaction, similarity, and fallback sources","textChars":66,"textLines":1,"bbox":[634,238,286,96]}
+{"kind":"shape","id":"sh/2hgvulgv","slide":6,"bbox":[932,228,286,116]}
+{"kind":"textbox","id":"sh/hg7e1gza","slide":6,"text":"Live; quantitative readout not included","textPreview":"Live; quantitative readout not included","textChars":39,"textLines":1,"bbox":[944,238,262,96]}
+{"kind":"shape","id":"sh/gfydsbyp","slide":6,"bbox":[62,344,230,116]}
+{"kind":"textbox","id":"sh/fe5wz6h4","slide":6,"text":"Because You Create","textPreview":"Because You Create","textChars":18,"textLines":1,"bbox":[74,354,206,96]}
+{"kind":"shape","id":"sh/udwvqlgj","slide":6,"bbox":[292,344,330,116]}
+{"kind":"textbox","id":"sh/1credkfe","slide":6,"text":"What should I hear based on music I made?","textPreview":"What should I hear based on music I made?","textChars":41,"textLines":1,"bbox":[304,354,306,96]}
+{"kind":"shape","id":"sh/0bid4fyt","slide":6,"bbox":[622,344,310,116]}
+{"kind":"textbox","id":"sh/yhcbyhwb","slide":6,"text":"One eligible creation as an anchor; musically adjacent songs","textPreview":"One eligible creation as an anchor; musically adjacent songs","textChars":60,"textLines":1,"bbox":[634,354,286,96]}
+{"kind":"shape","id":"sh/jils7mxw","slide":6,"bbox":[932,344,286,116]}
+{"kind":"textbox","id":"sh/kjut07eh","slide":6,"text":"+63% feed playtime; +36% feed plays","textPreview":"+63% feed playtime; +36% feed plays","textChars":35,"textLines":1,"bbox":[944,354,262,96]}
+{"kind":"shape","id":"sh/lk3a9cf2","slide":6,"bbox":[62,460,230,116]}
+{"kind":"textbox","id":"sh/adsbuxwf","slide":6,"text":"Creators You May Like","textPreview":"Creators You May Like","textChars":21,"textLines":1,"bbox":[74,470,206,96]}
+{"kind":"shape","id":"sh/be1s32xk","slide":6,"bbox":[292,460,330,116]}
+{"kind":"textbox","id":"sh/wfatw7e5","slide":6,"text":"Which creators should I follow?","textPreview":"Which creators should I follow?","textChars":31,"textLines":1,"bbox":[304,470,306,96]}
+{"kind":"shape","id":"sh/xg3a5cfq","slide":6,"bbox":[622,460,310,116]}
+{"kind":"textbox","id":"sh/u9wb61wj","slide":6,"text":"Listening and creation profile; creator similarity","textPreview":"Listening and creation profile; creator similarity","textChars":50,"textLines":1,"bbox":[634,470,286,96]}
+{"kind":"shape","id":"sh/va5cf6d4","slide":6,"bbox":[932,460,286,116]}
+{"kind":"textbox","id":"sh/f2lobyhk","slide":6,"text":"+15% net follows; +7.9% carousel CTR","textPreview":"+15% net follows; +7.9% carousel CTR","textChars":36,"textLines":1,"bbox":[944,470,262,96]}
+{"kind":"shape","id":"sh/e1c72t0z","slide":6,"bbox":[62,590,1156,48]}
+{"kind":"textbox","id":"sh/1436d8za","slide":6,"text":"Design implication: retrieval could be shared; eligibility, ranking, and assembly stayed feed-specific.","textPreview":"Design implication: retrieval could be shared; eligibility, ranking, and assembly stayed feed-specific.","textChars":103,"textLines":1,"bbox":[78,603,1124,24]}
+{"kind":"notes","id":"nt/8v1fmt","slide":6,"text":"- Use this slide to prevent the audience from treating the feeds as three copies of one algorithm.\n- For You combines several weak and strong signals.\n- Because You Create starts from one strong, visible creation anchor.\n- Creator recommendations optimize a relationship outcome rather than a song play.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/pzorzh","slide":7,"title":"SYSTEM DESIGN","textShapes":24}
+{"kind":"shape","id":"sh/98rm14fu","slide":7,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/m5g3qpwj","slide":7,"text":"SYSTEM DESIGN","textPreview":"SYSTEM DESIGN","textChars":13,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/n6p4zuxo","slide":7,"text":"A shared offline pipeline supported all three feeds","textPreview":"A shared offline pipeline supported all three feeds","textChars":51,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/03ylozyd","slide":7,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/l47mxkfy","slide":7,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/y1g3mpg7","slide":7,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/z2p4vuxs","slide":7,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/kz250jeh","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/50bm9of2","slide":7,"bbox":[62,207,200,222]}
+{"kind":"textbox","id":"sh/h4v2tk3a","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[80,225,42,36]}
+{"kind":"textbox","id":"sh/w3ml0fmp","slide":7,"text":"Signals","textPreview":"Signals","textChars":7,"textLines":1,"bbox":[80,276,164,62]}
+{"kind":"textbox","id":"sh/v2dkrul4","slide":7,"text":"Listening, likes, creations, profiles","textPreview":"Listening, likes, creations, profiles","textChars":37,"textLines":1,"bbox":[80,348,164,64]}
+{"kind":"shape","id":"sh/u143yp4j","slide":7,"bbox":[262,318,30,0]}
+{"kind":"shape","id":"sh/90v2pk3y","slide":7,"bbox":[292,207,200,222]}
+{"kind":"textbox","id":"sh/8z21wfmd","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[310,225,42,36]}
+{"kind":"textbox","id":"sh/7ytknal8","slide":7,"text":"Candidate retrieval","textPreview":"Candidate retrieval","textChars":19,"textLines":1,"bbox":[310,276,164,62]}
+{"kind":"textbox","id":"sh/mxkju54n","slide":7,"text":"Similarity, personal sources, trends","textPreview":"Similarity, personal sources, trends","textChars":36,"textLines":1,"bbox":[310,348,164,64]}
+{"kind":"shape","id":"sh/twf2143i","slide":7,"bbox":[492,318,30,0]}
+{"kind":"shape","id":"sh/sv6l8zmx","slide":7,"bbox":[522,207,200,222]}
+{"kind":"textbox","id":"sh/cze54nut","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,225,42,36]}
+{"kind":"textbox","id":"sh/d0nmxsbe","slide":7,"text":"Per-feed ranking","textPreview":"Per-feed ranking","textChars":16,"textLines":1,"bbox":[540,276,164,62]}
+{"kind":"textbox","id":"sh/qxwn2dc3","slide":7,"text":"Relevance, quality, novelty, negatives","textPreview":"Relevance, quality, novelty, negatives","textChars":38,"textLines":1,"bbox":[540,348,164,64]}
+{"kind":"shape","id":"sh/ry54vito","slide":7,"bbox":[722,318,30,0]}
+{"kind":"shape","id":"sh/4be503ux","slide":7,"bbox":[752,207,200,222]}
+{"kind":"textbox","id":"sh/pcnm98bi","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[770,225,42,36]}
+{"kind":"textbox","id":"sh/29cnytcr","slide":7,"text":"Assembly","textPreview":"Assembly","textChars":8,"textLines":1,"bbox":[770,276,164,62]}
+{"kind":"textbox","id":"sh/3al47ytc","slide":7,"text":"Slots, deduplication, refill, hard floors","textPreview":"Slots, deduplication, refill, hard floors","textChars":41,"textLines":1,"bbox":[770,348,164,64]}
+{"kind":"shape","id":"sh/g7u5w3u1","slide":7,"bbox":[952,318,30,0]}
+{"kind":"shape","id":"sh/h83m58b6","slide":7,"bbox":[982,207,200,222]}
+{"kind":"textbox","id":"sh/j21ofyd8","slide":7,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1000,225,42,36]}
+{"kind":"textbox","id":"sh/i1sn6twn","slide":7,"text":"Serve and learn","textPreview":"Serve and learn","textChars":15,"textLines":1,"bbox":[1000,276,164,62]}
+{"kind":"textbox","id":"sh/5436hove","slide":7,"text":"Fast lookup, fallback, attribution, experiments","textPreview":"Fast lookup, fallback, attribution, experiments","textChars":47,"textLines":1,"bbox":[1000,348,164,64]}
+{"kind":"textbox","id":"sh/k3a583et","slide":7,"text":"Offline computation","textPreview":"Offline computation","textChars":19,"textLines":1,"bbox":[62,458,858,24]}
+{"kind":"textbox","id":"sh/76lojyd4","slide":7,"text":"Online serving","textPreview":"Online serving","textChars":14,"textLines":1,"bbox":[982,458,226,24]}
+{"kind":"shape","id":"sh/65cnatwz","slide":7,"bbox":[62,509,1156,82]}
+{"kind":"textbox","id":"sh/t836l8va","slide":7,"text":"Operating contract","textPreview":"Operating contract","textChars":18,"textLines":1,"bbox":[82,530,180,28]}
+{"kind":"textbox","id":"sh/s7u5c3ep","slide":7,"text":"Every served item carries feed, position, source, and experiment attribution. Online checks protect privacy, rights, and availability.","textPreview":"Every served item carries feed, position, source, and experiment attribution. Online checks protect privacy, rights, and availability.","textChars":134,"textLines":1,"bbox":[270,526,914,42]}
+{"kind":"notes","id":"nt/pzorzh","slide":7,"text":"- Keep the first explanation at system level; use the appendix for scoring detail.\n- I built the data flow, feed assembly, serving path, and instrumentation across this loop.\n- Shared infrastructure reduced duplicate engineering, while feed-specific ranking preserved product intent.\n- Attribution linked generated candidates to impressions, position, actions, and experiment assignment.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/m3p5zk","slide":8,"title":"SETBACK 1: PIPELINE SCALE","textShapes":20}
+{"kind":"shape","id":"sh/6tonex4b","slide":8,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/twzm9c3m","slide":8,"text":"SETBACK 1: PIPELINE SCALE","textPreview":"SETBACK 1: PIPELINE SCALE","textChars":25,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/8vq5g7m1","slide":8,"text":"A feed-aware join removed a 23.4B-row intermediate","textPreview":"A feed-aware join removed a 23.4B-row intermediate","textChars":50,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/vyhobmls","slide":8,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/ux8nih47","slide":8,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/h0z6dw3y","slide":8,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/gzq5krmd","slide":8,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/b2x4zi5o","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/a14n6d43","slide":8,"text":"FIRST IMPLEMENTATION","textPreview":"FIRST IMPLEMENTATION","textChars":20,"textLines":1,"bbox":[62,176,300,20]}
+{"kind":"textbox","id":"sh/gv254r6p","slide":8,"text":"Join every candidate to every feed configuration, then filter unsupported feeds.","textPreview":"Join every candidate to every feed configuration, then filter unsupported feeds.","textChars":80,"textLines":1,"bbox":[62,216,526,64]}
+{"kind":"shape","id":"sh/hwb6dwna","slide":8,"bbox":[62,308,546,126]}
+{"kind":"textbox","id":"sh/u9kn2hoj","slide":8,"text":"23.4B","textPreview":"23.4B","textChars":5,"textLines":1,"bbox":[82,323,160,58]}
+{"kind":"textbox","id":"sh/vatobm54","slide":8,"text":"intermediate rows","textPreview":"intermediate rows","textChars":17,"textLines":1,"bbox":[82,382,160,40]}
+{"kind":"textbox","id":"sh/4zm58r6l","slide":8,"text":"~4 TB","textPreview":"~4 TB","textChars":5,"textLines":1,"bbox":[260,323,150,58]}
+{"kind":"textbox","id":"sh/50v6hwn6","slide":8,"text":"spill","textPreview":"spill","textChars":5,"textLines":1,"bbox":[260,382,150,28]}
+{"kind":"textbox","id":"sh/ixkn61of","slide":8,"text":">4 h","textPreview":">4 h","textChars":4,"textLines":1,"bbox":[430,323,150,58]}
+{"kind":"textbox","id":"sh/3ytof650","slide":8,"text":"timeout","textPreview":"timeout","textChars":7,"textLines":1,"bbox":[430,382,150,28]}
+{"kind":"shape","id":"sh/k3i5w76h","slide":8,"bbox":[638,176,0,306]}
+{"kind":"textbox","id":"sh/l4rm5cn2","slide":8,"text":"REVISED JOIN","textPreview":"REVISED JOIN","textChars":12,"textLines":1,"bbox":[678,176,260,20]}
+{"kind":"textbox","id":"sh/1ozud4ve","slide":8,"text":"Join on user and bucket eligibility","textPreview":"Join on user and bucket eligibility","textChars":35,"textLines":1,"bbox":[678,216,490,42]}
+{"kind":"textbox","id":"sh/0nqtkzut","slide":8,"text":"Expand a candidate only to feeds that can consume its bucket.","textPreview":"Expand a candidate only to feeds that can consume its bucket.","textChars":61,"textLines":1,"bbox":[678,272,490,56]}
+{"kind":"shape","id":"sh/zmhcbudo","slide":8,"bbox":[678,352,490,110]}
+{"kind":"textbox","id":"sh/el8bipc3","slide":8,"text":"Result","textPreview":"Result","textChars":6,"textLines":1,"bbox":[698,370,100,24]}
+{"kind":"textbox","id":"sh/9sjuh4bq","slide":8,"text":"Output-equivalent; invalid fan-out avoided; production-feasible execution.","textPreview":"Output-equivalent; invalid fan-out avoided; production-feasible execution.","textChars":74,"textLines":1,"bbox":[698,400,444,44]}
+{"kind":"shape","id":"sh/oradoju5","slide":8,"bbox":[62,496,1106,76]}
+{"kind":"textbox","id":"sh/nqhcfetk","slide":8,"text":"Lesson","textPreview":"Lesson","textChars":6,"textLines":1,"bbox":[82,517,100,24]}
+{"kind":"textbox","id":"sh/mp8bm9cz","slide":8,"text":"At this scale, data grain is an architectural decision.","textPreview":"At this scale, data grain is an architectural decision.","textChars":55,"textLines":1,"bbox":[186,513,950,34]}
+{"kind":"notes","id":"nt/m3p5zk","slide":8,"text":"- This was my clearest technical setback.\n- The query was logically correct and passed small tests, but it materialized invalid combinations before filtering.\n- Evidence: 23.4 billion rows, about 4 terabytes of spill, and a timeout beyond four hours.\n- I traced the fan-out to the join grain and moved eligibility into the join condition.\n- Do not claim an exact after-runtime; the launch summary did not preserve one.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/2tj8hx","slide":9,"title":"SETBACK 2: MESSY DATA","textShapes":19}
+{"kind":"shape","id":"sh/q9wz2xsr","slide":9,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/dcnidsb2","slide":9,"text":"SETBACK 2: MESSY DATA","textPreview":"SETBACK 2: MESSY DATA","textChars":21,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/sbeh4nah","slide":9,"text":"Explicit data contracts eliminated silent source and identity failures","textPreview":"Explicit data contracts eliminated silent source and identity failures","textChars":70,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/3ml07it0","slide":9,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/ilczydsf","slide":9,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/5o3i9sb6","slide":9,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/4nuh0nal","slide":9,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/vil03yt4","slide":9,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/uhczudsj","slide":9,"bbox":[62,174,310,54]}
+{"kind":"textbox","id":"sh/c7ydsve9","slide":9,"text":"Ambiguity","textPreview":"Ambiguity","textChars":9,"textLines":1,"bbox":[74,184,286,34]}
+{"kind":"shape","id":"sh/d87e10vu","slide":9,"bbox":[372,174,410,54]}
+{"kind":"textbox","id":"sh/q5gvqlw3","slide":9,"text":"How it failed","textPreview":"How it failed","textChars":13,"textLines":1,"bbox":[384,184,386,34]}
+{"kind":"shape","id":"sh/r6pwzqdo","slide":9,"bbox":[782,174,436,54]}
+{"kind":"textbox","id":"sh/43edovex","slide":9,"text":"Control added","textPreview":"Control added","textChars":13,"textLines":1,"bbox":[794,184,412,34]}
+{"kind":"shape","id":"sh/p47exgvi","slide":9,"bbox":[62,228,310,106]}
+{"kind":"textbox","id":"sh/21wvmlw7","slide":9,"text":"Current state vs history","textPreview":"Current state vs history","textChars":24,"textLines":1,"bbox":[74,238,286,86]}
+{"kind":"shape","id":"sh/325wvqds","slide":9,"bbox":[372,228,410,106]}
+{"kind":"textbox","id":"sh/ozix0fuh","slide":9,"text":"Valid-looking results could be stale or duplicated","textPreview":"Valid-looking results could be stale or duplicated","textChars":50,"textLines":1,"bbox":[384,238,386,86]}
+{"kind":"shape","id":"sh/90re9kv2","slide":9,"bbox":[782,228,436,106]}
+{"kind":"textbox","id":"sh/xwnetkn6","slide":9,"text":"Current-state contracts and snapshot replacement","textPreview":"Current-state contracts and snapshot replacement","textChars":48,"textLines":1,"bbox":[794,238,412,86]}
+{"kind":"shape","id":"sh/wvedkfml","slide":9,"bbox":[62,334,310,106]}
+{"kind":"textbox","id":"sh/vu5wra50","slide":9,"text":"Numeric IDs vs UUIDs","textPreview":"Numeric IDs vs UUIDs","textChars":20,"textLines":1,"bbox":[74,344,286,86]}
+{"kind":"shape","id":"sh/atwvi54f","slide":9,"bbox":[372,334,410,106]}
+{"kind":"textbox","id":"sh/9snep0nu","slide":9,"text":"Joins could return empty or incomplete results","textPreview":"Joins could return empty or incomplete results","textChars":46,"textLines":1,"bbox":[384,344,386,86]}
+{"kind":"shape","id":"sh/8redgvm9","slide":9,"bbox":[782,334,436,106]}
+{"kind":"textbox","id":"sh/nq5wna54","slide":9,"text":"Explicit identity map and conversion checks","textPreview":"Explicit identity map and conversion checks","textChars":43,"textLines":1,"bbox":[794,344,412,86]}
+{"kind":"shape","id":"sh/mpcve5oj","slide":9,"bbox":[62,440,310,106]}
+{"kind":"textbox","id":"sh/lo3el0ny","slide":9,"text":"Generated vs served feeds","textPreview":"Generated vs served feeds","textChars":25,"textLines":1,"bbox":[74,450,286,86]}
+{"kind":"shape","id":"sh/0nudcv6d","slide":9,"bbox":[372,440,410,106]}
+{"kind":"textbox","id":"sh/qh8j6xgz","slide":9,"text":"Offline output could differ from what users saw","textPreview":"Offline output could differ from what users saw","textChars":47,"textLines":1,"bbox":[384,450,386,86]}
+{"kind":"shape","id":"sh/rihkz2hk","slide":9,"bbox":[782,440,436,106]}
+{"kind":"textbox","id":"sh/cjq187y5","slide":9,"text":"Source tagging plus serving and impression telemetry","textPreview":"Source tagging plus serving and impression telemetry","textChars":52,"textLines":1,"bbox":[794,450,412,86]}
+{"kind":"shape","id":"sh/dkz21czq","slide":9,"bbox":[62,558,1156,68]}
+{"kind":"textbox","id":"sh/2t8j2x0n","slide":9,"text":"Debug sequence","textPreview":"Debug sequence","textChars":14,"textLines":1,"bbox":[82,578,160,26]}
+{"kind":"textbox","id":"sh/3uhkv2h8","slide":9,"text":"Trace one user end to end → verify identity and grain → compare generated, stored, served, and impressed items","textPreview":"Trace one user end to end → verify identity and grain → compare generated, stored, served, and impressed items","textChars":110,"textLines":1,"bbox":[244,574,940,30]}
+{"kind":"notes","id":"nt/2tj8hx","slide":9,"text":"- The dangerous failures looked plausible. They did not always produce obvious errors.\n- I initially used the wrong source in parts of the pipeline because the codebase had several representations of the same concept.\n- I stopped tuning ranking until the source, identifier, and grain were verified for one user end to end.\n- The fix was a set of explicit data contracts and telemetry rather than a one-off query patch.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/qln9mj","slide":10,"title":"SETBACK 3: PRODUCT LOGIC","textShapes":17}
+{"kind":"shape","id":"sh/bqxwv654","slide":10,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/cr6dob6p","slide":10,"text":"SETBACK 3: PRODUCT LOGIC","textPreview":"SETBACK 3: PRODUCT LOGIC","textChars":24,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/dsfexgna","slide":10,"text":"Validating before sampling reduced unusable creation seeds from 47.12% to 7.91%","textPreview":"Validating before sampling reduced unusable creation seeds from 47.12% to 7.91%","textChars":79,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/ytovqlov","slide":10,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/zuxwzq5g","slide":10,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/0vqdsvm1","slide":10,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/lwze10n6","slide":10,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/mx8vul4r","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/nyhw3q5c","slide":10,"text":"BEFORE","textPreview":"BEFORE","textChars":6,"textLines":1,"bbox":[62,190,180,20]}
+{"kind":"textbox","id":"sh/vixgzy9w","slide":10,"text":"Sample a creation","textPreview":"Sample a creation","textChars":17,"textLines":1,"bbox":[62,230,270,36]}
+{"kind":"shape","id":"sh/ahoz6tsb","slide":10,"bbox":[324,249,60,0]}
+{"kind":"textbox","id":"sh/xkfy18rm","slide":10,"text":"Validate quality","textPreview":"Validate quality","textChars":16,"textLines":1,"bbox":[402,230,270,36]}
+{"kind":"textbox","id":"sh/wj6h83ah","slide":10,"text":"47.12%","textPreview":"47.12%","textChars":6,"textLines":1,"bbox":[62,292,250,74]}
+{"kind":"textbox","id":"sh/nuxgve9k","slide":10,"text":"users ended with no usable seed","textPreview":"users ended with no usable seed","textChars":31,"textLines":1,"bbox":[62,365,420,34]}
+{"kind":"shape","id":"sh/mt4z29sz","slide":10,"bbox":[642,190,0,298]}
+{"kind":"textbox","id":"sh/9gfyxorq","slide":10,"text":"AFTER","textPreview":"AFTER","textChars":5,"textLines":1,"bbox":[682,190,180,20]}
+{"kind":"textbox","id":"sh/8f6h4ja5","slide":10,"text":"Validate eligible pool","textPreview":"Validate eligible pool","textChars":22,"textLines":1,"bbox":[682,230,300,36]}
+{"kind":"shape","id":"sh/7qh07i94","slide":10,"bbox":[970,249,60,0]}
+{"kind":"textbox","id":"sh/6p8zedsj","slide":10,"text":"Sample an anchor","textPreview":"Sample an anchor","textChars":16,"textLines":1,"bbox":[1046,230,172,64]}
+{"kind":"textbox","id":"sh/25cj6hcr","slide":10,"text":"7.91%","textPreview":"7.91%","textChars":5,"textLines":1,"bbox":[682,292,250,74]}
+{"kind":"textbox","id":"sh/36lkzmtc","slide":10,"text":"true no-seed floor after eligibility checks","textPreview":"true no-seed floor after eligibility checks","textChars":43,"textLines":1,"bbox":[682,365,470,34]}
+{"kind":"shape","id":"sh/47u18ruh","slide":10,"bbox":[62,493,1156,96]}
+{"kind":"textbox","id":"sh/p8321wb2","slide":10,"text":"Product rule","textPreview":"Product rule","textChars":12,"textLines":1,"bbox":[82,515,140,24]}
+{"kind":"textbox","id":"sh/q9cjahcn","slide":10,"text":"A creation is useful as a recommendation seed only after quality, rights, privacy, and product eligibility checks.","textPreview":"A creation is useful as a recommendation seed only after quality, rights, privacy, and product eligibility checks.","textChars":114,"textLines":1,"bbox":[224,510,954,52]}
+{"kind":"notes","id":"nt/qln9mj","slide":10,"text":"- This bug was small in code and large in product effect.\n- Sampling first meant a bad draw erased users who still had other eligible creations.\n- Moving validation ahead of sampling reduced zero-seed users from 47.12 percent to 7.91 percent.\n- The remaining 7.91 percent represented the real no-seed floor under the eligibility rules.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/hdj336","slide":11,"title":"EXPERIMENTATION","textShapes":23}
+{"kind":"shape","id":"sh/8vmt4b6p","slide":11,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/nudcb6p4","slide":11,"text":"EXPERIMENTATION","textPreview":"EXPERIMENTATION","textChars":15,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/mt4b21oj","slide":11,"text":"Experiment results supported launch decisions across three recommendation surfaces","textPreview":"Experiment results supported launch decisions across three recommendation surfaces","textChars":82,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/lsvu9w7y","slide":11,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/0rmt0r6d","slide":11,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/zqdc76ps","slide":11,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/yp4be1o7","slide":11,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/5ozul0n2","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/kn6tcv6h","slide":11,"bbox":[62,166,260,52]}
+{"kind":"textbox","id":"sh/i9knu5cj","slide":11,"text":"Surface","textPreview":"Surface","textChars":7,"textLines":1,"bbox":[74,176,236,32]}
+{"kind":"shape","id":"sh/jut43ad4","slide":11,"bbox":[322,166,270,52]}
+{"kind":"textbox","id":"sh/kv25wfup","slide":11,"text":"Primary signal","textPreview":"Primary signal","textChars":14,"textLines":1,"bbox":[334,176,246,32]}
+{"kind":"shape","id":"sh/5wbm5kva","slide":11,"bbox":[592,166,330,52]}
+{"kind":"textbox","id":"sh/a503qlc7","slide":11,"text":"Supporting evidence","textPreview":"Supporting evidence","textChars":19,"textLines":1,"bbox":[604,176,306,32]}
+{"kind":"shape","id":"sh/v6t4zqds","slide":11,"bbox":[922,166,296,52]}
+{"kind":"textbox","id":"sh/w725svud","slide":11,"text":"Interpretation","textPreview":"Interpretation","textChars":14,"textLines":1,"bbox":[934,176,272,32]}
+{"kind":"shape","id":"sh/x8bm10vy","slide":11,"bbox":[62,218,260,116]}
+{"kind":"textbox","id":"sh/u14n2pcr","slide":11,"text":"Listening-seeded precursor","textPreview":"Listening-seeded precursor","textChars":26,"textLines":1,"bbox":[74,228,236,96]}
+{"kind":"shape","id":"sh/f2d4budc","slide":11,"bbox":[322,218,270,116]}
+{"kind":"textbox","id":"sh/r65k3mto","slide":11,"text":"+18% feed playtime","textPreview":"+18% feed playtime","textChars":18,"textLines":1,"bbox":[334,228,246,96]}
+{"kind":"shape","id":"sh/q5wjuhs3","slide":11,"bbox":[592,218,330,116]}
+{"kind":"textbox","id":"sh/d8725wbu","slide":11,"text":"+5.6% feed plays; +4.2% likes on others' clips","textPreview":"+5.6% feed plays; +4.2% likes on others' clips","textChars":46,"textLines":1,"bbox":[604,228,306,96]}
+{"kind":"shape","id":"sh/c7y1wra9","slide":11,"bbox":[922,218,296,116]}
+{"kind":"textbox","id":"sh/zapk7mtk","slide":11,"text":"Validated a personalized listening shelf; no reported regressions","textPreview":"Validated a personalized listening shelf; no reported regressions","textChars":65,"textLines":1,"bbox":[934,228,272,96]}
+{"kind":"shape","id":"sh/e9gjyhsz","slide":11,"bbox":[62,334,260,116]}
+{"kind":"textbox","id":"sh/1c729wbq","slide":11,"text":"Because You Create","textPreview":"Because You Create","textChars":18,"textLines":1,"bbox":[74,344,236,96]}
+{"kind":"shape","id":"sh/0by10ra5","slide":11,"bbox":[322,334,270,116]}
+{"kind":"textbox","id":"sh/nepkb6tw","slide":11,"text":"+63% feed playtime","textPreview":"+63% feed playtime","textChars":18,"textLines":1,"bbox":[334,344,246,96]}
+{"kind":"shape","id":"sh/mdgj21sb","slide":11,"bbox":[592,334,330,116]}
+{"kind":"textbox","id":"sh/k3i1sbq9","slide":11,"text":"+36% feed plays; +0.83% total web clip plays; +1.5% community playtime","textPreview":"+36% feed plays; +0.83% total web clip plays; +1.5% community playtime","textChars":70,"textLines":1,"bbox":[604,344,306,96]}
+{"kind":"shape","id":"sh/54rilg7u","slide":11,"bbox":[922,334,296,116]}
+{"kind":"textbox","id":"sh/ih0jq18j","slide":11,"text":"Creation-seeded discovery increased depth and total listening","textPreview":"Creation-seeded discovery increased depth and total listening","textChars":61,"textLines":1,"bbox":[934,344,272,96]}
+{"kind":"shape","id":"sh/j290j694","slide":11,"bbox":[62,450,260,116]}
+{"kind":"textbox","id":"sh/wfi1orqd","slide":11,"text":"Creators You May Like","textPreview":"Creators You May Like","textChars":21,"textLines":1,"bbox":[74,460,236,96]}
+{"kind":"shape","id":"sh/xgrihwry","slide":11,"bbox":[322,450,270,116]}
+{"kind":"textbox","id":"sh/adgjm187","slide":11,"text":"+15% net follows","textPreview":"+15% net follows","textChars":16,"textLines":1,"bbox":[334,460,246,96]}
+{"kind":"shape","id":"sh/be90fm9s","slide":11,"bbox":[592,450,330,116]}
+{"kind":"textbox","id":"sh/obyhkrqh","slide":11,"text":"+7.9% carousel CTR; +17% profile follows; guardrails flat","textPreview":"+7.9% carousel CTR; +17% profile follows; guardrails flat","textChars":57,"textLines":1,"bbox":[604,460,306,96]}
+{"kind":"shape","id":"sh/9c7idwrm","slide":11,"bbox":[922,450,296,116]}
+{"kind":"textbox","id":"sh/dgnyls7e","slide":11,"text":"Personalized creators created more follow relationships","textPreview":"Personalized creators created more follow relationships","textChars":55,"textLines":1,"bbox":[934,460,272,96]}
+{"kind":"textbox","id":"sh/cfexsn69","slide":11,"text":"Metric meaning: feed playtime measures listening inside the shelf; carousel CTR measures click-through from creator impressions; net follows measures new follow relationships net of losses.","textPreview":"Metric meaning: feed playtime measures listening inside the shelf; carousel CTR measures click-through from creator impressions; net foll...","textChars":189,"textLines":1,"bbox":[62,580,1156,38]}
+{"kind":"textbox","id":"sh/relgjipo","slide":11,"text":"Relative lift vs control. Sample size, duration, and confidence intervals were not included in the launch summaries used for this deck. For You quantitative readout is unavailable.","textPreview":"Relative lift vs control. Sample size, duration, and confidence intervals were not included in the launch summaries used for this deck. F...","textChars":180,"textLines":1,"bbox":[62,628,1156,28]}
+{"kind":"notes","id":"nt/hdj336","slide":11,"text":"- Read the primary signal first, then explain the supporting metric and guardrail.\n- Because You Create moved both shelf depth and a site-wide listening measure.\n- The creator result was statistically significant after variance adjustment and bot filtering.\n- Be explicit about the limits: launch summaries did not include sample size, duration, or confidence intervals in the material available for this deck.\n- Do not claim a quantitative For You lift without the underlying readout.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/z75xgy","slide":12,"title":"OUTCOME","textShapes":21}
+{"kind":"shape","id":"sh/gnmx8zmt","slide":12,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/fmdgzu5o","slide":12,"text":"OUTCOME","textPreview":"OUTCOME","textChars":7,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/u14f6p43","slide":12,"text":"The project created a reusable delivery system","textPreview":"The project created a reusable delivery system","textChars":46,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/psvy54nq","slide":12,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/4rmhczm5","slide":12,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/3qdg3u5k","slide":12,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/2p4zap4z","slide":12,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/5wbyt0n6","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/kv2x0fm1","slide":12,"bbox":[62,170,300,54]}
+{"kind":"textbox","id":"sh/at832947","slide":12,"text":"Capability","textPreview":"Capability","textChars":10,"textLines":1,"bbox":[74,180,276,34]}
+{"kind":"shape","id":"sh/buh4belc","slide":12,"bbox":[362,170,430,54]}
+{"kind":"textbox","id":"sh/cvql4zmx","slide":12,"text":"What became reusable","textPreview":"What became reusable","textChars":20,"textLines":1,"bbox":[374,180,406,34]}
+{"kind":"shape","id":"sh/xwzmd43i","slide":12,"bbox":[792,170,426,54]}
+{"kind":"textbox","id":"sh/yx836943","slide":12,"text":"Why it matters","textPreview":"Why it matters","textChars":14,"textLines":1,"bbox":[804,180,402,34]}
+{"kind":"shape","id":"sh/zyh4felo","slide":12,"bbox":[62,224,300,88]}
+{"kind":"textbox","id":"sh/kzql8jm9","slide":12,"text":"Product configuration","textPreview":"Product configuration","textChars":21,"textLines":1,"bbox":[74,234,276,68]}
+{"kind":"shape","id":"sh/l0jmho3u","slide":12,"bbox":[362,224,430,88]}
+{"kind":"textbox","id":"sh/m1s3at4z","slide":12,"text":"Feed-specific candidate mixes, ranking weights, slot patterns, and fallbacks","textPreview":"Feed-specific candidate mixes, ranking weights, slot patterns, and fallbacks","textChars":76,"textLines":1,"bbox":[374,234,406,68]}
+{"kind":"shape","id":"sh/7214jylk","slide":12,"bbox":[792,224,426,88]}
+{"kind":"textbox","id":"sh/jq1kry1s","slide":12,"text":"New experiments do not require a separate stack","textPreview":"New experiments do not require a separate stack","textChars":47,"textLines":1,"bbox":[804,234,402,68]}
+{"kind":"shape","id":"sh/i5s3ytk7","slide":12,"bbox":[62,312,300,88]}
+{"kind":"textbox","id":"sh/5s32t8jy","slide":12,"text":"Production serving","textPreview":"Production serving","textChars":18,"textLines":1,"bbox":[74,322,276,68]}
+{"kind":"shape","id":"sh/4ral03id","slide":12,"bbox":[362,312,430,88]}
+{"kind":"textbox","id":"sh/v21kne1w","slide":12,"text":"Precomputed results, online checks, hard floors, and fallback retrieval","textPreview":"Precomputed results, online checks, hard floors, and fallback retrieval","textChars":71,"textLines":1,"bbox":[374,322,406,68]}
+{"kind":"shape","id":"sh/u1s3u9kb","slide":12,"bbox":[792,312,426,88]}
+{"kind":"textbox","id":"sh/h4j2pojm","slide":12,"text":"Offline failures degrade quality without emptying the homepage","textPreview":"Offline failures degrade quality without emptying the homepage","textChars":62,"textLines":1,"bbox":[804,322,402,68]}
+{"kind":"shape","id":"sh/w3alwj2h","slide":12,"bbox":[62,400,300,88]}
+{"kind":"textbox","id":"sh/7yhkje1k","slide":12,"text":"Measurement","textPreview":"Measurement","textChars":11,"textLines":1,"bbox":[74,410,276,68]}
+{"kind":"shape","id":"sh/mx8jq9kz","slide":12,"bbox":[362,400,430,88]}
+{"kind":"textbox","id":"sh/c36h0fix","slide":12,"text":"Feed, position, source, impression, action, and experiment attribution","textPreview":"Feed, position, source, impression, action, and experiment attribution","textChars":70,"textLines":1,"bbox":[374,410,406,68]}
+{"kind":"shape","id":"sh/x4fitkzi","slide":12,"bbox":[792,400,426,88]}
+{"kind":"textbox","id":"sh/a1ozy50r","slide":12,"text":"Product changes can be evaluated from exposure through outcome","textPreview":"Product changes can be evaluated from exposure through outcome","textChars":62,"textLines":1,"bbox":[804,410,402,68]}
+{"kind":"shape","id":"sh/b2x0rahc","slide":12,"bbox":[62,488,300,88]}
+{"kind":"textbox","id":"sh/k76h4fy9","slide":12,"text":"Operations","textPreview":"Operations","textChars":10,"textLines":1,"bbox":[74,498,276,68]}
+{"kind":"shape","id":"sh/l8zixkze","slide":12,"bbox":[362,488,430,88]}
+{"kind":"textbox","id":"sh/y5oz2503","slide":12,"text":"Staging checks, launch validation, health metrics, and failure diagnosis","textPreview":"Staging checks, launch validation, health metrics, and failure diagnosis","textChars":72,"textLines":1,"bbox":[374,498,406,68]}
+{"kind":"shape","id":"sh/z6x0vaho","slide":12,"bbox":[792,488,426,88]}
+{"kind":"textbox","id":"sh/0bmhsvip","slide":12,"text":"Rollouts have a clear owner and recovery path","textPreview":"Rollouts have a clear owner and recovery path","textChars":45,"textLines":1,"bbox":[804,498,402,68]}
+{"kind":"shape","id":"sh/1cvyl0za","slide":12,"bbox":[62,592,1156,42]}
+{"kind":"textbox","id":"sh/t4rihk3q","slide":12,"text":"Result: future feed iterations can reuse the data, serving, measurement, and rollout path.","textPreview":"Result: future feed iterations can reuse the data, serving, measurement, and rollout path.","textChars":90,"textLines":1,"bbox":[78,603,1124,24]}
+{"kind":"notes","id":"nt/z75xgy","slide":12,"text":"- Separate feature output from organizational capability.\n- The immediate output was three feeds; the durable output was a shared delivery and measurement path.\n- Configuration, fallback behavior, and attribution reduced the cost of future experiments.\n- I owned the operational path from staging through production health.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/we7bba","slide":13,"title":"REFLECTION","textShapes":10}
+{"kind":"shape","id":"sh/6l0ryl4j","slide":13,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/torat03u","slide":13,"text":"REFLECTION","textPreview":"REFLECTION","textChars":10,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/sni90vm9","slide":13,"text":"Recommendation quality depends on data and operations as much as scoring","textPreview":"Recommendation quality depends on data and operations as much as scoring","textChars":72,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/jip8n6ls","slide":13,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/ihgru147","slide":13,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/5krqpg3y","slide":13,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/kji9wbmd","slide":13,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/3etszalw","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/2dkr65kb","slide":13,"text":"WHAT WORKED","textPreview":"WHAT WORKED","textChars":11,"textLines":1,"bbox":[62,174,300,20]}
+{"kind":"textbox","id":"sh/0rq5sfmd","slide":13,"text":"Defined a delivery path without a PM or a predefined roadmap.\nPaired ML judgment with end-to-end engineering ownership.\nTested in staging and rolled out without a production outage.\nInstrumented exposure, action, and production health before launch.","textPreview":"Defined a delivery path without a PM or a predefined roadmap. | Paired ML judgment with end-to-end engineering ownership. | Tested in sta...","textChars":249,"textLines":4,"bbox":[62,218,520,278]}
+{"kind":"shape","id":"sh/1sz61k3y","slide":13,"bbox":[620,174,0,376]}
+{"kind":"textbox","id":"sh/e58nq547","slide":13,"text":"WHAT I WOULD CHANGE","textPreview":"WHAT I WOULD CHANGE","textChars":19,"textLines":1,"bbox":[662,174,360,20]}
+{"kind":"textbox","id":"sh/f6hozals","slide":13,"text":"Map source-of-truth tables, identifiers, and grain before implementation.\nDefine the metric tree before building experiment telemetry.\nRun production-scale data prototypes earlier.\nReview real recommendation examples with users and partners earlier.","textPreview":"Map source-of-truth tables, identifiers, and grain before implementation. | Define the metric tree before building experiment telemetry. ...","textChars":249,"textLines":4,"bbox":[662,218,546,278]}
+{"kind":"shape","id":"sh/s365ovm1","slide":13,"bbox":[62,564,1156,58]}
+{"kind":"textbox","id":"sh/d4f6x03m","slide":13,"text":"I learned fastest when I treated product behavior, data contracts, and operations as one system.","textPreview":"I learned fastest when I treated product behavior, data contracts, and operations as one system.","textChars":96,"textLines":1,"bbox":[82,579,1116,28]}
+{"kind":"notes","id":"nt/we7bba","slide":13,"text":"- Close the main presentation here and leave time for questions.\n- The strongest part of the project was ownership across boundaries.\n- The main cost was learning data grain, source semantics, and metric design while building.\n- My day-one changes would reduce rework without removing the useful experimentation.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/r0dfxb","slide":14,"title":"APPENDIX","textShapes":4}
+{"kind":"shape","id":"sh/onqh4z2h","slide":14,"bbox":[0,0,14,720]}
+{"kind":"textbox","id":"sh/nmh0bu1w","slide":14,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[76,92,260,20]}
+{"kind":"textbox","id":"sh/2l8z2pkb","slide":14,"text":"Technical and experiment detail","textPreview":"Technical and experiment detail","textChars":31,"textLines":1,"bbox":[76,154,960,82]}
+{"kind":"textbox","id":"sh/1kzi9kjq","slide":14,"text":"Use selectively during Q&A","textPreview":"Use selectively during Q&A","textChars":26,"textLines":1,"bbox":[78,270,620,36]}
+{"kind":"shape","id":"sh/0jqh0f25","slide":14,"bbox":[78,356,210,0]}
+{"kind":"textbox","id":"sh/fih07a10","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1158,676,60,18]}
+{"kind":"notes","id":"nt/r0dfxb","slide":14,"text":"- Stop here unless a question calls for more detail.\n- The appendix covers ownership, feed semantics, scoring, safety, measurement, and day-one changes.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/er05d8","slide":15,"title":"APPENDIX A1","textShapes":26}
+{"kind":"shape","id":"sh/yx0ji5k3","slide":15,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/lkbitk3e","slide":15,"text":"APPENDIX A1","textPreview":"APPENDIX A1","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/kj21kf29","slide":15,"text":"Ownership by workstream","textPreview":"Ownership by workstream","textChars":23,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/bu90nalc","slide":15,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/at0je54r","slide":15,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/xwripk3i","slide":15,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/cvi1gfmx","slide":15,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/vqd0zulw","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/upkjqpkb","slide":15,"bbox":[62,166,270,52]}
+{"kind":"textbox","id":"sh/g3i1kfu9","slide":15,"text":"Workstream","textPreview":"Workstream","textChars":10,"textLines":1,"bbox":[74,176,246,32]}
+{"kind":"shape","id":"sh/h4r2tkbu","slide":15,"bbox":[332,166,390,52]}
+{"kind":"textbox","id":"sh/u1gji5cj","slide":15,"text":"My responsibility","textPreview":"My responsibility","textChars":17,"textLines":1,"bbox":[344,176,366,32]}
+{"kind":"shape","id":"sh/f2pkrad4","slide":15,"bbox":[722,166,496,52]}
+{"kind":"textbox","id":"sh/szy1gvud","slide":15,"text":"Concrete artifact or decision","textPreview":"Concrete artifact or decision","textChars":29,"textLines":1,"bbox":[734,176,472,32]}
+{"kind":"shape","id":"sh/t072p0vy","slide":15,"bbox":[62,218,270,66]}
+{"kind":"textbox","id":"sh/6xgjelc7","slide":15,"text":"Architecture","textPreview":"Architecture","textChars":12,"textLines":1,"bbox":[74,228,246,46]}
+{"kind":"shape","id":"sh/7ypknqds","slide":15,"bbox":[332,218,390,66]}
+{"kind":"textbox","id":"sh/kve1cvuh","slide":15,"text":"Co-owned contracts and design","textPreview":"Co-owned contracts and design","textChars":29,"textLines":1,"bbox":[344,228,366,46]}
+{"kind":"shape","id":"sh/5w72l0vm","slide":15,"bbox":[722,218,496,66]}
+{"kind":"textbox","id":"sh/lszipcnq","slide":15,"text":"Shared pipeline; offline/online boundary; attribution contract","textPreview":"Shared pipeline; offline/online boundary; attribution contract","textChars":62,"textLines":1,"bbox":[734,228,472,46]}
+{"kind":"shape","id":"sh/kr6hg7m5","slide":15,"bbox":[62,284,270,66]}
+{"kind":"textbox","id":"sh/zqx0nm5k","slide":15,"text":"Data pipelines","textPreview":"Data pipelines","textChars":14,"textLines":1,"bbox":[74,294,246,46]}
+{"kind":"shape","id":"sh/ypozeh4z","slide":15,"bbox":[332,284,390,66]}
+{"kind":"textbox","id":"sh/xofilcne","slide":15,"text":"Owned end to end","textPreview":"Owned end to end","textChars":16,"textLines":1,"bbox":[344,294,366,46]}
+{"kind":"shape","id":"sh/cn6hc7mt","slide":15,"bbox":[722,284,496,66]}
+{"kind":"textbox","id":"sh/b2x0j25o","slide":15,"text":"Signals, candidates, ranking inputs, assembly, and materialization","textPreview":"Signals, candidates, ranking inputs, assembly, and materialization","textChars":66,"textLines":1,"bbox":[734,294,472,46]}
+{"kind":"shape","id":"sh/a1ozax43","slide":15,"bbox":[62,350,270,66]}
+{"kind":"textbox","id":"sh/hkjixwny","slide":15,"text":"Retrieval and ranking","textPreview":"Retrieval and ranking","textChars":21,"textLines":1,"bbox":[74,360,246,46]}
+{"kind":"shape","id":"sh/wjahormd","slide":15,"bbox":[332,350,390,66]}
+{"kind":"textbox","id":"sh/et0n29gj","slide":15,"text":"Implemented most logic; co-designed","textPreview":"Implemented most logic; co-designed","textChars":35,"textLines":1,"bbox":[344,360,366,46]}
+{"kind":"shape","id":"sh/fu9oveh4","slide":15,"bbox":[722,350,496,66]}
+{"kind":"textbox","id":"sh/gv254zyp","slide":15,"text":"Candidate sources, weights, negatives, eligibility, refill","textPreview":"Candidate sources, weights, negatives, eligibility, refill","textChars":58,"textLines":1,"bbox":[734,360,472,46]}
+{"kind":"shape","id":"sh/1wb6x4za","slide":15,"bbox":[62,416,270,66]}
+{"kind":"textbox","id":"sh/6p0nypgn","slide":15,"text":"Serving and UI","textPreview":"Serving and UI","textChars":14,"textLines":1,"bbox":[74,426,246,46]}
+{"kind":"shape","id":"sh/7q9oruhs","slide":15,"bbox":[332,416,390,66]}
+{"kind":"textbox","id":"sh/sri50zyd","slide":15,"text":"Implemented most backend and frontend","textPreview":"Implemented most backend and frontend","textChars":37,"textLines":1,"bbox":[344,426,366,46]}
+{"kind":"shape","id":"sh/tsr6t4zy","slide":15,"bbox":[722,416,496,66]}
+{"kind":"textbox","id":"sh/qlk7atgr","slide":15,"text":"Feed endpoints, fallbacks, homepage integration","textPreview":"Feed endpoints, fallbacks, homepage integration","textChars":47,"textLines":1,"bbox":[734,426,472,46]}
+{"kind":"shape","id":"sh/bmto3yhc","slide":15,"bbox":[62,482,270,66]}
+{"kind":"textbox","id":"sh/be9kzqls","slide":15,"text":"Experiments","textPreview":"Experiments","textChars":11,"textLines":1,"bbox":[74,492,246,46]}
+{"kind":"shape","id":"sh/ad0jqlk7","slide":15,"bbox":[332,482,390,66]}
+{"kind":"textbox","id":"sh/xgr2103i","slide":15,"text":"Co-owned setup and readout","textPreview":"Co-owned setup and readout","textChars":26,"textLines":1,"bbox":[344,492,366,46]}
+{"kind":"shape","id":"sh/wfi1sv2x","slide":15,"bbox":[722,482,496,66]}
+{"kind":"textbox","id":"sh/na9kvqlg","slide":15,"text":"Assignment, exposure, event attribution, guardrails","textPreview":"Assignment, exposure, event attribution, guardrails","textChars":51,"textLines":1,"bbox":[734,492,472,46]}
+{"kind":"shape","id":"sh/m90jmlkv","slide":15,"bbox":[62,548,270,66]}
+{"kind":"textbox","id":"sh/9cr2xg3m","slide":15,"text":"Rollout and health","textPreview":"Rollout and health","textChars":18,"textLines":1,"bbox":[74,558,246,46]}
+{"kind":"shape","id":"sh/obi1ob21","slide":15,"bbox":[332,548,390,66]}
+{"kind":"textbox","id":"sh/76tk7alk","slide":15,"text":"Owned staging and production","textPreview":"Owned staging and production","textChars":28,"textLines":1,"bbox":[344,558,366,46]}
+{"kind":"shape","id":"sh/65k3y5kf","slide":15,"bbox":[722,548,496,66]}
+{"kind":"textbox","id":"sh/4rehs7ix","slide":15,"text":"Launch checks, dashboards, diagnosis, rollback path","textPreview":"Launch checks, dashboards, diagnosis, rollback path","textChars":51,"textLines":1,"bbox":[734,558,472,46]}
+{"kind":"notes","id":"nt/er05d8","slide":15,"text":"- Use this slide when asked what I personally built.\n- Choose one workstream and give a concrete artifact or decision.\n- Repeat the partner contribution when the question touches ranking or experiment analysis.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/vce4e7","slide":16,"title":"APPENDIX A2","textShapes":33}
+{"kind":"shape","id":"sh/wvy14jm9","slide":16,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/vupkve5o","slide":16,"text":"APPENDIX A2","textPreview":"APPENDIX A2","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/utgj2943","slide":16,"text":"Feed design comparison","textPreview":"Feed design comparison","textChars":22,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/50r21onq","slide":16,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/4zil8jm5","slide":16,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/jy9kzy5k","slide":16,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/ix036t4f","slide":16,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/tob258n2","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/sn2lc3mh","slide":16,"bbox":[62,164,230,54]}
+{"kind":"textbox","id":"sh/ylgnmx47","slide":16,"text":"Dimension","textPreview":"Dimension","textChars":9,"textLines":1,"bbox":[74,174,206,34]}
+{"kind":"shape","id":"sh/jm9of2ls","slide":16,"bbox":[292,164,304,54]}
+{"kind":"textbox","id":"sh/kni5o7md","slide":16,"text":"For You","textPreview":"For You","textChars":7,"textLines":1,"bbox":[304,174,280,34]}
+{"kind":"shape","id":"sh/lor6hc3y","slide":16,"bbox":[596,164,310,54]}
+{"kind":"textbox","id":"sh/6p07qx4j","slide":16,"text":"Because You Create","textPreview":"Because You Create","textChars":18,"textLines":1,"bbox":[608,174,286,34]}
+{"kind":"shape","id":"sh/7a9oj2l4","slide":16,"bbox":[906,164,312,54]}
+{"kind":"textbox","id":"sh/8bips7m9","slide":16,"text":"Creators You May Like","textPreview":"Creators You May Like","textChars":21,"textLines":1,"bbox":[918,174,288,34]}
+{"kind":"shape","id":"sh/tcr6lc3u","slide":16,"bbox":[62,218,230,66]}
+{"kind":"textbox","id":"sh/mtwned4z","slide":16,"text":"Entity","textPreview":"Entity","textChars":6,"textLines":1,"bbox":[74,228,206,46]}
+{"kind":"shape","id":"sh/ne5o7i5k","slide":16,"bbox":[292,218,304,66]}
+{"kind":"textbox","id":"sh/rm1czah0","slide":16,"text":"Song","textPreview":"Song","textChars":4,"textLines":1,"bbox":[304,228,280,46]}
+{"kind":"shape","id":"sh/6lsbq5gv","slide":16,"bbox":[596,218,310,66]}
+{"kind":"textbox","id":"sh/doju1kf6","slide":16,"text":"Song","textPreview":"Song","textChars":4,"textLines":1,"bbox":[608,228,286,46]}
+{"kind":"shape","id":"sh/snatsfyl","slide":16,"bbox":[906,218,312,66]}
+{"kind":"textbox","id":"sh/ji1cvah4","slide":16,"text":"Creator","textPreview":"Creator","textChars":7,"textLines":1,"bbox":[918,228,288,46]}
+{"kind":"shape","id":"sh/ih8bm5gj","slide":16,"bbox":[62,284,230,66]}
+{"kind":"textbox","id":"sh/5kjuxkza","slide":16,"text":"Core input","textPreview":"Core input","textChars":10,"textLines":1,"bbox":[74,294,206,46]}
+{"kind":"shape","id":"sh/4jatofyp","slide":16,"bbox":[292,284,304,66]}
+{"kind":"textbox","id":"sh/nelc7ux8","slide":16,"text":"Mixed behavior","textPreview":"Mixed behavior","textChars":14,"textLines":1,"bbox":[304,294,280,46]}
+{"kind":"shape","id":"sh/2dcvy9gn","slide":16,"bbox":[596,284,310,66]}
+{"kind":"textbox","id":"sh/kj69sre5","slide":16,"text":"One strong own creation","textPreview":"One strong own creation","textChars":23,"textLines":1,"bbox":[608,294,286,46]}
+{"kind":"shape","id":"sh/lkfq1wfq","slide":16,"bbox":[906,284,312,66]}
+{"kind":"textbox","id":"sh/yx4rq1wf","slide":16,"text":"Listening and creation profile","textPreview":"Listening and creation profile","textChars":30,"textLines":1,"bbox":[918,294,288,46]}
+{"kind":"shape","id":"sh/zyd8zmx0","slide":16,"bbox":[62,350,230,66]}
+{"kind":"textbox","id":"sh/8n69wbeh","slide":16,"text":"Retrieval","textPreview":"Retrieval","textChars":9,"textLines":1,"bbox":[74,360,206,46]}
+{"kind":"shape","id":"sh/9ofa5gf2","slide":16,"bbox":[292,350,304,66]}
+{"kind":"textbox","id":"sh/mloru1wb","slide":16,"text":"Audio and personal buckets","textPreview":"Audio and personal buckets","textChars":26,"textLines":1,"bbox":[304,360,280,46]}
+{"kind":"shape","id":"sh/7mxs36xw","slide":16,"bbox":[596,350,310,66]}
+{"kind":"textbox","id":"sh/wrq90bed","slide":16,"text":"Audio similarity","textPreview":"Audio similarity","textChars":16,"textLines":1,"bbox":[608,360,286,46]}
+{"kind":"shape","id":"sh/hsza9gvy","slide":16,"bbox":[906,350,312,66]}
+{"kind":"textbox","id":"sh/h07a9gje","slide":16,"text":"Profile similarity","textPreview":"Profile similarity","textChars":18,"textLines":1,"bbox":[918,360,288,46]}
+{"kind":"shape","id":"sh/gzy9gbit","slide":16,"bbox":[62,416,230,66]}
+{"kind":"textbox","id":"sh/fyps7618","slide":16,"text":"Assembly","textPreview":"Assembly","textChars":8,"textLines":1,"bbox":[74,426,206,46]}
+{"kind":"shape","id":"sh/uxgre10n","slide":16,"bbox":[292,416,304,66]}
+{"kind":"textbox","id":"sh/tw7a5wj2","slide":16,"text":"Multi-signal slots","textPreview":"Multi-signal slots","textChars":18,"textLines":1,"bbox":[304,426,280,46]}
+{"kind":"shape","id":"sh/svy9crih","slide":16,"bbox":[596,416,310,66]}
+{"kind":"textbox","id":"sh/7up83m1w","slide":16,"text":"Anchor then neighbors","textPreview":"Anchor then neighbors","textChars":21,"textLines":1,"bbox":[608,426,286,46]}
+{"kind":"shape","id":"sh/6tgra10r","slide":16,"bbox":[906,416,312,66]}
+{"kind":"textbox","id":"sh/dsbah0jm","slide":16,"text":"Ranked creator list","textPreview":"Ranked creator list","textChars":19,"textLines":1,"bbox":[918,426,288,46]}
+{"kind":"shape","id":"sh/cri9ovi1","slide":16,"bbox":[62,482,230,66]}
+{"kind":"textbox","id":"sh/alsfmtc7","slide":16,"text":"Cold start","textPreview":"Cold start","textChars":10,"textLines":1,"bbox":[74,492,206,46]}
+{"kind":"shape","id":"sh/bm1gvyds","slide":16,"bbox":[292,482,304,66]}
+{"kind":"textbox","id":"sh/wnaxo3ud","slide":16,"text":"Local and global trends","textPreview":"Local and global trends","textChars":23,"textLines":1,"bbox":[304,492,280,46]}
+{"kind":"shape","id":"sh/xo3yx8vi","slide":16,"bbox":[596,482,310,66]}
+{"kind":"textbox","id":"sh/mxsfitcv","slide":16,"text":"Online fallback when no seed","textPreview":"Online fallback when no seed","textChars":28,"textLines":1,"bbox":[608,492,286,46]}
+{"kind":"shape","id":"sh/ny1gredg","slide":16,"bbox":[906,482,312,66]}
+{"kind":"textbox","id":"sh/ozaxkju1","slide":16,"text":"Curated or search fallback","textPreview":"Curated or search fallback","textChars":26,"textLines":1,"bbox":[918,492,288,46]}
+{"kind":"shape","id":"sh/90jytovm","slide":16,"bbox":[62,548,230,66]}
+{"kind":"textbox","id":"sh/6tczudcf","slide":16,"text":"Primary outcome","textPreview":"Primary outcome","textChars":15,"textLines":1,"bbox":[74,558,206,46]}
+{"kind":"shape","id":"sh/7ulg3id0","slide":16,"bbox":[292,548,304,66]}
+{"kind":"textbox","id":"sh/3yxcvatc","slide":16,"text":"Qualified listening","textPreview":"Qualified listening","textChars":19,"textLines":1,"bbox":[304,558,280,46]}
+{"kind":"shape","id":"sh/ix4vm5sr","slide":16,"bbox":[596,548,310,66]}
+{"kind":"textbox","id":"sh/50fuxkbi","slide":16,"text":"Creation-adjacent listening","textPreview":"Creation-adjacent listening","textChars":27,"textLines":1,"bbox":[608,558,286,46]}
+{"kind":"shape","id":"sh/4z6dofax","slide":16,"bbox":[906,548,312,66]}
+{"kind":"textbox","id":"sh/r2xczut8","slide":16,"text":"Follow relationships","textPreview":"Follow relationships","textChars":20,"textLines":1,"bbox":[918,558,288,46]}
+{"kind":"notes","id":"nt/vce4e7","slide":16,"text":"- Use this comparison to answer feed-specific architecture questions.\n- The shared platform handles common mechanics; the semantic contract changes by feed.\n- Creator recommendations have a different entity type and a different success event.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/f2xq61","slide":17,"title":"APPENDIX A3","textShapes":11}
+{"kind":"shape","id":"sh/sve1wnqh","slide":17,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/ru503ipw","slide":17,"text":"APPENDIX A3","textPreview":"APPENDIX A3","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/qtwjud8b","slide":17,"text":"Retrieval broadens the pool; ranking applies feed-specific decisions","textPreview":"Retrieval broadens the pool; ranking applies feed-specific decisions","textChars":68,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/5s3i1srq","slide":17,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/4ru1snq5","slide":17,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/3ql0zi90","slide":17,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/ipcjqd8f","slide":17,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/ho3ix8ru","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/gnu1o3q9","slide":17,"text":"CANDIDATE RETRIEVAL","textPreview":"CANDIDATE RETRIEVAL","textChars":19,"textLines":1,"bbox":[62,188,340,20]}
+{"kind":"textbox","id":"sh/ipsbm1kn","slide":17,"text":"Audio or profile similarity.\nListening, likes, and creations.\nCountry-first and global fallbacks.\nBroad pool with intentionally mixed quality.","textPreview":"Audio or profile similarity. | Listening, likes, and creations. | Country-first and global fallbacks. | Broad pool with intentionally mix...","textChars":142,"textLines":4,"bbox":[62,232,486,230]}
+{"kind":"shape","id":"sh/jq1svml8","slide":17,"bbox":[604,188,0,312]}
+{"kind":"textbox","id":"sh/4rutor2t","slide":17,"text":"PER-FEED RANKING AND ASSEMBLY","textPreview":"PER-FEED RANKING AND ASSEMBLY","textChars":29,"textLines":1,"bbox":[646,188,460,20]}
+{"kind":"textbox","id":"sh/5s3uxw3e","slide":17,"text":"Bucket weights and rank fusion.\nNegative signals and cooldown.\nPrivacy, rights, quality, and safety eligibility.\nSlot pattern, deduplication, refill, and hard floor.","textPreview":"Bucket weights and rank fusion. | Negative signals and cooldown. | Privacy, rights, quality, and safety eligibility. | Slot pattern, dedu...","textChars":165,"textLines":4,"bbox":[646,232,562,230]}
+{"kind":"shape","id":"sh/a1sbihkr","slide":17,"bbox":[62,523,1146,70]}
+{"kind":"textbox","id":"sh/v21srmlc","slide":17,"text":"Conceptual score","textPreview":"Conceptual score","textChars":16,"textLines":1,"bbox":[82,544,170,24]}
+{"kind":"textbox","id":"sh/wnatkr2h","slide":17,"text":"relevance x feed weight x quality x novelty","textPreview":"relevance x feed weight x quality x novelty","textChars":43,"textLines":1,"bbox":[266,536,900,38]}
+{"kind":"notes","id":"nt/f2xq61","slide":17,"text":"- Keep this explanation conceptual unless the interviewer asks for exact feature logic.\n- Retrieval maximizes candidate coverage; ranking and assembly enforce the feed's product objective.\n- The formula is conceptual and omits internal implementation details.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/dmp1g6","slide":18,"title":"APPENDIX A4","textShapes":19}
+{"kind":"shape","id":"sh/p87m9g36","slide":18,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/25w3elkv","slide":18,"text":"APPENDIX A4","textPreview":"APPENDIX A4","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/365476lg","slide":18,"text":"Safety and availability checks run at generation and serve time","textPreview":"Safety and availability checks run at generation and serve time","textChars":63,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/g3elcb2p","slide":18,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/14nm5g3a","slide":18,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/e1w3a14j","slide":18,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/f25436l4","slide":18,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/0zilov2t","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"shape","id":"sh/l0rmh03e","slide":18,"bbox":[62,196,262,250]}
+{"kind":"textbox","id":"sh/poze90zi","slide":18,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[80,214,38,34]}
+{"kind":"textbox","id":"sh/onqx0vix","slide":18,"text":"Generation","textPreview":"Generation","textChars":10,"textLines":1,"bbox":[80,268,226,58]}
+{"kind":"textbox","id":"sh/nmhw7qhc","slide":18,"text":"Remove unsafe or low-quality candidates before storage","textPreview":"Remove unsafe or low-quality candidates before storage","textChars":54,"textLines":1,"bbox":[80,340,226,80]}
+{"kind":"shape","id":"sh/2l8fyl0r","slide":18,"bbox":[353,196,262,250]}
+{"kind":"textbox","id":"sh/10ze50z6","slide":18,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[371,214,38,34]}
+{"kind":"textbox","id":"sh/0zqxwvil","slide":18,"text":"Offline row","textPreview":"Offline row","textChars":11,"textLines":1,"bbox":[371,268,226,58]}
+{"kind":"textbox","id":"sh/fyxw3qhg","slide":18,"text":"Keep the last good feed during a refresh grace window","textPreview":"Keep the last good feed during a refresh grace window","textChars":53,"textLines":1,"bbox":[371,340,226,80]}
+{"kind":"shape","id":"sh/exoful0v","slide":18,"bbox":[644,196,262,250]}
+{"kind":"textbox","id":"sh/lwjyhkzq","slide":18,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[662,214,38,34]}
+{"kind":"textbox","id":"sh/kvax8fy5","slide":18,"text":"Serve-time check","textPreview":"Serve-time check","textChars":16,"textLines":1,"bbox":[662,268,226,58]}
+{"kind":"textbox","id":"sh/4b290nad","slide":18,"text":"Recheck privacy, blocks, rights, and deletion state","textPreview":"Recheck privacy, blocks, rights, and deletion state","textChars":51,"textLines":1,"bbox":[662,340,226,80]}
+{"kind":"shape","id":"sh/5cbqtsby","slide":18,"bbox":[935,196,262,250]}
+{"kind":"textbox","id":"sh/i9kryds7","slide":18,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[953,214,38,34]}
+{"kind":"textbox","id":"sh/3at8rits","slide":18,"text":"Fallback","textPreview":"Fallback","textChars":8,"textLines":1,"bbox":[953,268,226,58]}
+{"kind":"textbox","id":"sh/g72pwnah","slide":18,"text":"Use cached or real-time retrieval on a miss","textPreview":"Use cached or real-time retrieval on a miss","textChars":43,"textLines":1,"bbox":[953,340,226,80]}
+{"kind":"shape","id":"sh/h8bqp8b2","slide":18,"bbox":[62,500,1135,88]}
+{"kind":"textbox","id":"sh/u507udsb","slide":18,"text":"Operating objective","textPreview":"Operating objective","textChars":19,"textLines":1,"bbox":[84,523,200,26]}
+{"kind":"textbox","id":"sh/v698nitw","slide":18,"text":"An offline failure should reduce recommendation quality without producing an empty homepage.","textPreview":"An offline failure should reduce recommendation quality without producing an empty homepage.","textChars":92,"textLines":1,"bbox":[292,516,872,46]}
+{"kind":"notes","id":"nt/dmp1g6","slide":18,"text":"- Use this slide for production-readiness questions.\n- Candidate eligibility is checked before storage and again at serve time because state can change.\n- Fallback behavior protects user experience when the offline path is late or missing.\n- The program launched without a production outage after staging and rollout checks.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/jwvkyb","slide":19,"title":"APPENDIX A5","textShapes":19}
+{"kind":"shape","id":"sh/fyxcj61w","slide":19,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/0zqdcbi1","slide":19,"text":"APPENDIX A5","textPreview":"APPENDIX A5","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/10zulgjm","slide":19,"text":"Measure exposure before interpreting outcome metrics","textPreview":"Measure exposure before interpreting outcome metrics","textChars":52,"textLines":1,"bbox":[62,55,1156,92]}
+{"kind":"shape","id":"sh/218vel07","slide":19,"bbox":[62,158,1156,0]}
+{"kind":"shape","id":"sh/n2hcnq1s","slide":19,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/onqdgbid","slide":19,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/pozupgjy","slide":19,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/ap8vil0j","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/bqhwrq1o","slide":19,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[62,201,46,36]}
+{"kind":"textbox","id":"sh/r2583e94","slide":19,"text":"Assignment","textPreview":"Assignment","textChars":10,"textLines":1,"bbox":[62,260,244,62]}
+{"kind":"textbox","id":"sh/61c7u9sj","slide":19,"text":"Intent-to-treat population","textPreview":"Intent-to-treat population","textChars":26,"textLines":1,"bbox":[62,335,244,64]}
+{"kind":"shape","id":"sh/t4nq5oru","slide":19,"bbox":[308,294,31,0]}
+{"kind":"textbox","id":"sh/s3epwja9","slide":19,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[353,201,46,36]}
+{"kind":"textbox","id":"sh/jeloze9s","slide":19,"text":"Shelf and item seen","textPreview":"Shelf and item seen","textChars":19,"textLines":1,"bbox":[353,260,244,62]}
+{"kind":"textbox","id":"sh/idc7q9s7","slide":19,"text":"Actual exposure and position","textPreview":"Actual exposure and position","textChars":28,"textLines":1,"bbox":[353,335,244,64]}
+{"kind":"shape","id":"sh/50361ory","slide":19,"bbox":[599,294,31,0]}
+{"kind":"textbox","id":"sh/4fupsjad","slide":19,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[644,201,46,36]}
+{"kind":"textbox","id":"sh/3ap8by9w","slide":19,"text":"Action","textPreview":"Action","textChars":6,"textLines":1,"bbox":[644,260,244,62]}
+{"kind":"textbox","id":"sh/29w72tsr","slide":19,"text":"Play, like, click, or follow","textPreview":"Play, like, click, or follow","textChars":28,"textLines":1,"bbox":[644,335,244,64]}
+{"kind":"shape","id":"sh/y50baxcz","slide":19,"bbox":[890,294,31,0]}
+{"kind":"textbox","id":"sh/zq9s32t4","slide":19,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[935,201,46,36]}
+{"kind":"textbox","id":"sh/kritw7up","slide":19,"text":"Durable quality","textPreview":"Durable quality","textChars":15,"textLines":1,"bbox":[935,260,244,62]}
+{"kind":"textbox","id":"sh/lsra5cba","slide":19,"text":"Return, retention, session depth","textPreview":"Return, retention, session depth","textChars":32,"textLines":1,"bbox":[935,335,244,64]}
+{"kind":"shape","id":"sh/mtkbyhcv","slide":19,"bbox":[62,449,1156,128]}
+{"kind":"textbox","id":"sh/7uts7mtg","slide":19,"text":"REPORTING CHECKLIST","textPreview":"REPORTING CHECKLIST","textChars":19,"textLines":1,"bbox":[82,470,300,20]}
+{"kind":"textbox","id":"sh/8v2t0ru1","slide":19,"text":"Control and treatment baselines | Sample size | Duration | Confidence interval | Guardrails | Exposure denominator","textPreview":"Control and treatment baselines | Sample size | Duration | Confidence interval | Guardrails | Exposure denominator","textChars":114,"textLines":1,"bbox":[82,512,1114,38]}
+{"kind":"notes","id":"nt/jwvkyb","slide":19,"text":"- A user can be assigned to treatment without seeing the shelf.\n- Separate intent-to-treat and actual-exposure views before explaining a lift.\n- Report baselines, sample size, duration, confidence interval, and guardrails when available.\n- Treat long-term retention as exploratory unless the experiment is powered for it.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
+{"kind":"slide","id":"sl/k5ekd5","slide":20,"title":"APPENDIX A6","textShapes":17}
+{"kind":"shape","id":"sh/7udcj6lg","slide":20,"bbox":[0,0,8,720]}
+{"kind":"textbox","id":"sh/svmdsb21","slide":20,"text":"APPENDIX A6","textPreview":"APPENDIX A6","textChars":11,"textLines":1,"bbox":[62,28,500,20]}
+{"kind":"textbox","id":"sh/twvulg3m","slide":20,"text":"What I would change on day one","textPreview":"What I would change on day one","textChars":30,"textLines":1,"bbox":[62,55,1156,60]}
+{"kind":"shape","id":"sh/i5kvmhkz","slide":20,"bbox":[62,126,1156,0]}
+{"kind":"shape","id":"sh/jqtcfmlk","slide":20,"bbox":[62,676,1156,0]}
+{"kind":"textbox","id":"sh/kr2dor25","slide":20,"text":"SUNO RECOMMENDATION FEEDS","textPreview":"SUNO RECOMMENDATION FEEDS","textChars":25,"textLines":1,"bbox":[62,687,420,14]}
+{"kind":"textbox","id":"sh/5sbuhw3a","slide":20,"text":"INTERVIEW DISCUSSION","textPreview":"INTERVIEW DISCUSSION","textChars":20,"textLines":1,"bbox":[482,687,300,14]}
+{"kind":"textbox","id":"sh/21ovylk3","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1160,685,58,16]}
+{"kind":"textbox","id":"sh/3mxwrq1o","slide":20,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[62,176,52,50]}
+{"kind":"textbox","id":"sh/7u9czmxg","slide":20,"text":"Map the system","textPreview":"Map the system","textChars":14,"textLines":1,"bbox":[132,176,320,48]}
+{"kind":"textbox","id":"sh/6t0vqhwb","slide":20,"text":"Write the source-of-truth, identifier, and data-grain map before implementation.","textPreview":"Write the source-of-truth, identifier, and data-grain map before implementation.","textChars":80,"textLines":1,"bbox":[474,176,722,64]}
+{"kind":"shape","id":"sh/twbu1wfm","slide":20,"bbox":[62,260,1135,0]}
+{"kind":"textbox","id":"sh/svidsre1","slide":20,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[62,281,52,50]}
+{"kind":"textbox","id":"sh/fytc36xs","slide":20,"text":"Write the metric tree","textPreview":"Write the metric tree","textChars":21,"textLines":1,"bbox":[132,281,320,48]}
+{"kind":"textbox","id":"sh/uxkvu1w7","slide":20,"text":"Define exposure, primary outcome, mechanisms, and guardrails before telemetry.","textPreview":"Define exposure, primary outcome, mechanisms, and guardrails before telemetry.","textChars":78,"textLines":1,"bbox":[474,281,722,64]}
+{"kind":"shape","id":"sh/10bu5wfy","slide":20,"bbox":[62,365,1135,0]}
+{"kind":"textbox","id":"sh/gz2dwbed","slide":20,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[62,386,52,50]}
+{"kind":"textbox","id":"sh/32tw76xo","slide":20,"text":"Prototype behavior","textPreview":"Prototype behavior","textChars":18,"textLines":1,"bbox":[132,386,320,48]}
+{"kind":"textbox","id":"sh/21kvy1w3","slide":20,"text":"Review real feeds with users and partners before optimizing ranking.","textPreview":"Review real feeds with users and partners before optimizing ranking.","textChars":68,"textLines":1,"bbox":[474,386,722,64]}
+{"kind":"shape","id":"sh/yt87m9kn","slide":20,"bbox":[62,470,1135,0]}
+{"kind":"textbox","id":"sh/zuhofel8","slide":20,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[62,491,52,50]}
+{"kind":"textbox","id":"sh/kvqpoj2t","slide":20,"text":"Design operations","textPreview":"Design operations","textChars":17,"textLines":1,"bbox":[132,491,320,48]}
+{"kind":"textbox","id":"sh/lwz6h43e","slide":20,"text":"Specify fallbacks, health metrics, and incident reproduction with the first architecture.","textPreview":"Specify fallbacks, health metrics, and incident reproduction with the first architecture.","textChars":89,"textLines":1,"bbox":[474,491,722,64]}
+{"kind":"notes","id":"nt/k5ekd5","slide":20,"text":"- Frame these as sequencing improvements, not a rejection of the approach.\n- The goal is to preserve autonomy while reducing avoidable rework.\n- The first two changes address data and experiment ambiguity; the last two address product and operations ambiguity.\n\n[Sources]\n- User-provided project documentation and experiment summaries, 2026-08-09.\n[/Sources]"}
